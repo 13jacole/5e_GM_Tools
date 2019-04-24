@@ -1,0 +1,53 @@
+﻿Item,Type,Attune,Class_Restriction
+Armor of gleaming,Armor,No,All
+Bead of nourishment,Wondrous item,No,All
+Bead of refreshment,Wondrous item,No,All
+Boots of false tracks,Wondrous item,No,All
+Candle of the deep,Wondrous item,No,All
+Cast-off armor,Armor,No,All
+Charlatan's Die,Wondrous item,Yes,All
+Cloak of billowing,Wondrous item,No,All
+Cloak of many fashions,Wondrous item,No,All
+Clockwork amulet,Wondrous item,No,All
+Clothes of mending,Wondrous item,No,All
+Dark shard amulet,Wondrous item,Yes,Warlock
+Dread helm,Wondrous item,No,All
+Ear horn of hearing,Wondrous item,No,All
+Enduring spellbook,Wondrous item,No,All
+Ersatz eye,Wondrous item,Yes,All
+Hat of vermin,Wondrous item,No,All
+Hat of wizardry,Wondrous item,Yes,Wizard
+Heward's handy spice pouch,Wondrous item,No,All
+Horn of silent alarm,Wondrous item,No,All
+Instrument of illusions,Wondrous item,Yes,All
+Instrument of scribing,Wondrous item,Yes,All
+Lock of trickery,Wondrous item,No,All
+Moon-touched sword,Weapon,No,All
+Mystery key,Wondrous item,No,All
+Orb of direction,Wondrous item,No,All
+Orb of time,Wondrous item,No,All
+Perfume of bewitching,Wondrous item,No,All
+Pipe of smoke monsters,Wondrous item,No,All
+Pole of angling,Wondrous item,No,All
+Pole of collapsing,Wondrous item,No,All
+Pot of awakening,Wondrous item,No,All
+Potion of climbing,Potion,No,All
+Potion of healing,Potion,No,All
+Rope of mending ,Wondrous item,No,All
+Ruby of the war mage,Wondrous item,Yes,Spellcaster
+Shield of expression,Armor,No,All
+Smoldering armor,Armor,No,All
+Spell scroll (cantrip),Scroll,No,All
+Spell scroll (1st level),Scroll,No,All
+Staff of adornment,Staff,No,All
+Staff of birdcalls,Staff,No,All
+Staff of flowers,Staff,No,All
+Talking doll,Wondrous item,Yes,All
+Tankard of sobriety,Wondrous item,No,All
+Unbreakable arrow,Weapon,No,All
+Veteran's cane,Wondrous item,No,All
+Walloping ammunition,Weapon,No,All
+Wand of conducting,Wand,No,All
+Wand of pyrotechnics,Wand,No,All
+Wand of scowls,Wand,No,All
+Wand of smiles,Wand,No,All

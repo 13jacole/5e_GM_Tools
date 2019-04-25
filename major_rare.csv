@@ -1,0 +1,87 @@
+﻿Item,Type,Attune,Class_Restriction
+Amulet of health,Wondreous item,Y,All
+Armor of resistance,Armor,Y,All
+Armor of vulnerability,Armor,Y,All
+Armor +1,Armor,N,All
+Arrow-catching shield,Armor,Y,All
+Belt of dwarvenkind,Wondreous item,Y,All
+Belt of hill giant strength,Wondreous item,Y,All
+Berserker axe,Weapon,Y,All
+Boots of levitation,Wondreous item,Y,All
+Boots of speed,Wondreous item,Y,All
+Bowl of commanding water elementals,Wondreous item,N,All
+Bracers of defense,Wondreous item,Y,All
+Brazier of commanding fire elementals,Wondreous item,N,All
+Cape of the mountebank,Wondreous item,N,All
+Censer of controlling air elementals,Wondreous item,N,All
+Cloak of displacement,Wondreous item,Y,All
+Cloak of the bat,Wondreous item,Y,All
+Cube of force,Wondreous item,Y,All
+Daern's instant fortress,Wondreous item,N,All
+Dagger of venom,Weapon,N,All
+Dimensional shackles,Wondreous item,N,All
+Dragon slayer,Weapon,N,All
+Elven chain,Armor,N,All
+Figurine of wondrous power (bronze griffon),Wondreous item,N,All
+Figurine of wondrous power (ebony fly),Wondreous item,N,All
+Figurine of wondrous power (golden lions),Wondreous item,N,All
+Figurine of wondrous power (ivory goats),Wondreous item,N,All
+Figurine of wondrous power (marble elephant),Wondreous item,N,All
+Figurine of wondrous power (onyx dog),Wondreous item,N,All
+Figurine of wondrous power (serpentine owl),Wondreous item,N,All
+Flame tongue,Weapon,Y,All
+Gem of seeing,Wondreous item,Y,All
+Giant slayer,Weapon,N,All
+Glamoured studded leather,Armor,N,All
+Helm of teleportation,Wondreous item,Y,All
+Horn of blasting,Wondreous item,N,All
+Horn of Valhalla (brass),Wondreous item,N,All
+Horn of Valhalla (silver),Wondreous item,N,All
+Instrument of the bards (Canaith mandolin),Wondreous item,Y,Bard
+Instrument of the bards (Cli lyre),Wondreous item,Y,Bard
+Ioun stone (awareness),Wondreous item,Y,All
+Ioun stone (protection),Wondreous item,Y,All
+Ioun stone (reserve),Wondreous item,Y,All
+Ioun stone (sustenance),Wondreous item,Y,All
+Iron bands of Bilarro,Wondreous item,N,All
+Mace of disruption,Weapon,Y,All
+Mace of smiting,Weapon,N,All
+Mace of terror,Weapon,Y,All
+Mantle of spell resistance,Wondreous item,Y,All
+Necklace of prayer beads,Wondreous item,Y,cleric|druid|paladin
+Periapt of proof against poison,Wondreous item,N,All
+Ring of animal influence,Ring,N,All
+Ring of evasion,Ring,Y,All
+Ring of feather falling,Ring,Y,All
+Ring of free action,Ring,Y,All
+Ring of protection,Ring,Y,All
+Ring of resistance,Ring,Y,All
+Ring of spell storing,Ring,Y,All
+Ring of the ram,Ring,Y,All
+Ring of X-ray vision,Ring,Y,All
+Robe of eyes,Wondreous item,Y,All
+Rod of rulership,Rod,Y,All
+Rod of the pact keeper +2,Rod,Y,warlock
+Rope of entanglement,Wondreous item,N,All
+Shield of missile attraction,Armor,N,All
+Shield +2,Armor,N,All
+Staff of charming,Staff,Y,bard|cleric|druid|sorcerer|warlock|wizard
+Staff of healing,Staff,Y,bard|cleric|druid
+Staff of swarming insects,Staff,Y,bard|cleric|druid|sorcerer|warlock|wizard
+Staff of the woodlands,Staff,Y,druid
+Staff of withering,Staff,Y,cleric|druid|warlock
+Stone of controlling earth elementals,Wondreous item,N,All
+Sun blade,Weapon,Y,All
+Sword of life stealing,Weapon,Y,All
+Sword of wounding,Weapon,Y,All
+Tentacle rod,Rod,Y,All
+Vicious weapon,Weapon,N,All
+Wand of binding,Wand,Y,spellcaster
+Wand of enemy detection,Wand,Y,All
+Wand of fear,Wand,Y,All
+Wand of fireballs,Wand,Y,spellcaster
+Wand of lightning bolts,Wand,Y,spellcaster
+Wand of the war mage +2,Wand,Y,spellcaster
+Wand of wonder,Wand,Y,spellcaster
+Weapon +2,Weapon,N,All
+Wings of flying,Wondreous item,Y,All

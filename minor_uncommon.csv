@@ -1,40 +1,40 @@
-﻿Item,Type,Attune,Class_Restriction
-Alchemy jug,Wondrous item,N,All
-Ammunition +1,Weapon,N,All
-Bag of holding,Wondrous item,N,All
-Cap of water breathing,Wondrous item,N,All
-Cloak of the manta ray,Wondrous item,N,All
-Decanter of endless water,Wondrous item,N,All
-Driftglobe,Wondrous item,N,All
-Dust of disappearance,Wondrous item,N,All
-Dust of dryness,Wondrous item,N,All
-Dust of sneezing and choking,Wondrous item,N,All
-Elemental gem,Wondrous item,N,All
-Eyes of minute seeing,Wondrous item,N,All
-Goggles of night,Wondrous item,N,All
-Helm of comprehending languages,Wondrous item,N,All
-Immovable rod,Rod,N,All
-Keoghtom's ointment,Wondrous item,N,All
-Lantern of revealing,Wondrous item,N,All
-Mariner's armor,Armor,N,All
-Mithral armor,Armor,N,All
-Oil of slipperiness,Potion,N,All
-Periapt of health,Wondrous item,N,All
-Philter of love,Potion,N,All
-Potion of animal friendship,Potion,N,All
-Potion of fire breath,Potion,N,All
-Potion of greater healing,Potion,N,All
-Potion of growth,Potion,N,All
-Potoin of hill giant strength,Potion,N,All
-Potion of poison,Potion,N,All
-Potion of resistance,Potion,N,All
-Potion of water breathing,Potion,N,All
-Ring of swimming,Ring,N,All
-Robe of useful items,Wondrous item,N,All
-Rope of climbing,Wondrous item,N,All
-Saddle of the cavalier,Wondrous item,N,All
-Sending stones,Wondrous item,N,All
-Spell scroll (2nd level),Scroll,N,All
-Spell scroll (3rd level),Scroll,N,All
-Wand of magic detection,Wand,N,All
-Wand of secrets,Wand,N,All
+Item	Type	Attune	Restrictions
+Alchemy jug	Wondrous item	N	All
+Ammunition +1	Weapon	N	All
+Bag of holding	Wondrous item	N	All
+Cap of water breathing	Wondrous item	N	All
+Cloak of the manta ray	Wondrous item	N	All
+Decanter of endless water	Wondrous item	N	All
+Driftglobe	Wondrous item	N	All
+Dust of disappearance	Wondrous item	N	All
+Dust of dryness	Wondrous item	N	All
+Dust of sneezing and choking	Wondrous item	N	All
+Elemental gem	Wondrous item	N	All
+Eyes of minute seeing	Wondrous item	N	All
+Goggles of night	Wondrous item	N	All
+Helm of comprehending languages	Wondrous item	N	All
+Immovable rod	Rod	N	All
+Keoghtom's ointment	Wondrous item	N	All
+Lantern of revealing	Wondrous item	N	All
+Mariner's armor	Armor	N	All
+Mithral armor	Armor	N	All
+Oil of slipperiness	Potion	N	All
+Periapt of health	Wondrous item	N	All
+Philter of love	Potion	N	All
+Potion of animal friendship	Potion	N	All
+Potion of fire breath	Potion	N	All
+Potion of greater healing	Potion	N	All
+Potion of growth	Potion	N	All
+Potoin of hill giant strength	Potion	N	All
+Potion of poison	Potion	N	All
+Potion of resistance	Potion	N	All
+Potion of water breathing	Potion	N	All
+Ring of swimming	Ring	N	All
+Robe of useful items	Wondrous item	N	All
+Rope of climbing	Wondrous item	N	All
+Saddle of the cavalier	Wondrous item	N	All
+Sending stones	Wondrous item	N	All
+Spell scroll (2nd level)	Scroll	N	All
+Spell scroll (3rd level)	Scroll	N	All
+Wand of magic detection	Wand	N	All
+Wand of secrets	Wand	N	All

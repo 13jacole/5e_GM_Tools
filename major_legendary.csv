@@ -1,0 +1,43 @@
+﻿Item,Type,Attune,Restrictions
+Apparatus of Kwalish,Wondrous item,N,All
+Armor of invulnerability,Armor,Y,All
+Armor +3,Armor,N,All
+Belt of cloud giant strength,Wondrous item,Y,All
+Belt of storm giant strength,Wondrous item,Y,All
+Cloak of invisibility,Wondrous item,Y,All
+Crystal ball (legendary),Wondrous item,Y,All
+Cubic gate,Wondrous item,N,All
+Deck of many things,Wondrous item,N,All
+Defender,Weapon,Y,All
+Efreeti chain,Armor,Y,All
+Hammer of thunderbolts,Weapon,Y,Giants Bane
+Holy avenger,Weapon,Y,paladin
+Horn of Valhalla (iron),Wondrous item,N,All
+Instrument of the bards (Ollamh harp),Wondrous item,Y,bard
+Ioun stone (greater absorption),Wondrous item,Y,All
+Ioun stone (master),Wondrous item,Y,All
+Ioun stone (regeneration),Wondrous item,Y,All
+Iron flask,Wondrous item,N,All
+Luck blade,Weapon,Y,All
+Plate armor of etherealness,Armor,Y,All
+Ring of air elemental command,Ring,Y,All
+Ring of djinni summoning,Ring,Y,All
+Ring of earth elemental command,Ring,Y,All
+Ring of fire elemental command,Ring,Y,All
+Ring of invisibility,Ring,Y,All
+Ring of spell turning,Ring,Y,All
+Ring of three wishes,Ring,N,All
+Ring of water elemental command,Ring,Y,All
+Robe of the archmagi,Wondrous item,Y,sorcerer|warlock|wizard
+Rod of lordly might,Rod,Y,All
+Rod of resurrection,Rod,Y,cleric|druid|paladin
+Scarab of protection,Wondrous item,Y,All
+Sphere of annihilation,Wondrous item,N,All
+Staff of the magi,Staff,Y,sorcerer|warlock|wizard
+Sword of answering,Weapon,Y,same alignment as sword
+Talisman of pure good,Wondrous item,Y,creature of good alignment
+Talisman of the sphere,Wondrous item,Y,All
+Talisman of ultimate evil,Wondrous item,Y,creature of evil alignment
+Tome of the stilled tongue,Wondrous item,Y,wizard
+Vorpal sword,Weapon,Y,All
+Well of many worlds,Wondrous item,N,All

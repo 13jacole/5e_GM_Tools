@@ -1,57 +1,57 @@
-Item	Type	Attune	Restrictions
-Adamantine armor	Armor	N	All
-Amulet of proof against detection and location	Wondrous item	Y	All
-Bag of tricks	Wondrous item	N	All
-Boots of elvenkind	Wondrous item	N	All
-Boots of striding and springing	Wondrous item	Y	All
-Boots of the winterlands	Wondrous item	Y	All
-Bracers of archery	Wondrous item	Y	All
-Brooch of shielding	Wondrous item	Y	All
-Broom of flying	Wondrous item	N	All
-Circlet of blasting	Wondrous item	N	All
-Cloak of elvenkind	Wondrous item	Y	All
-Cloak of protection	Wondrous item	Y	All
-Deck of illusions	Wondrous item	N	All
-Eversmoking bottle	Wondrous item	N	All
-Eyes of charming	Wondrous item	Y	All
-Eyes of the eagle	Wondrous item	Y	All
-Figurine of wondrous power (silver raven)	Wondrous item	N	All
-Gauntlets of ogre power	Wondrous item	Y	All
-Gem of brightness	Wondrous item	N	All
-Gloves of missile snaring	Wondrous item	Y	All
-Gloves of swimming and climbing	Wondrous item	Y	All
-Gloves of thievery	Wondrous item	N	All
-Hat of disguise	Wondrous item	Y	All
-Headband of intellect	Wondrous item	Y	All
-Helm of telepathy	Wondrous item	Y	All
-Instrument of the bards (Doss lute)	Wondrous item	Y	Bard
-Instrument of the bards (Fochlucan bandore)	Wondrous item	Y	Bard
-Instrument of the bards (Mac-Fuirmidh cittern)	Wondrous item	Y	Bard
-Javelin of lightning	Weapon	N	All
-Medallion of thoughts	Wondrous item	Y	All
-Necklace of adaptation	Wondrous item	Y	All
-Pearl of power	Wondrous item	Y	spellcaster
-Periapt of wound closure	Wondrous item	Y	All
-Pipes of haunting	Wondrous item	N	All
-Pipes of the sewers	Wondrous item	Y	All
-Quiver of Ehlonna	Wondrous item	N	All
-Ring of jumping	Ring	Y	All
-Ring of mind shielding	Ring	Y	All
-Ring of warmth	Ring	Y	All
-Ring of water walking	Ring	N	All
-Rod of the pact keeper +1	Rod	Yes	Warlock
-Sentinel shield	Armor	N	All
-Shield +1	Armor	N	All
-Slippers of spider climbing	Wondrous item	Y	All
-Staff of the adder	Staff	Y	cleric|druid|warlock
-Staff of the python	Staff	Y	cleric|druid|warlock
-Stone of good luck (luck-stone)	Wondrous item	Y	All
-Sword of vengeance	Weapon	Y	All
-Trident of fish command	Weapon	Y	All
-Wand of magic missiles	Wand	N	All
-Wand of the war mage +1	Wand	Y	spellcaster
-Wand of web	Wand	Y	spellcaster
-Weapon of warning	Weapon	Y	All
-Weapon +1	Weapon	N	All
-Wind fan	Wondrous item	N	All
-Winged boots	Wondrous item	Y	All
+Item,Type,Attune,Restrictions
+Adamantine armor,Armor,N,All
+Amulet of proof against detection and location,Wondrous item,Y,All
+Bag of tricks,Wondrous item,N,All
+Boots of elvenkind,Wondrous item,N,All
+Boots of striding and springing,Wondrous item,Y,All
+Boots of the winterlands,Wondrous item,Y,All
+Bracers of archery,Wondrous item,Y,All
+Brooch of shielding,Wondrous item,Y,All
+Broom of flying,Wondrous item,N,All
+Circlet of blasting,Wondrous item,N,All
+Cloak of elvenkind,Wondrous item,Y,All
+Cloak of protection,Wondrous item,Y,All
+Deck of illusions,Wondrous item,N,All
+Eversmoking bottle,Wondrous item,N,All
+Eyes of charming,Wondrous item,Y,All
+Eyes of the eagle,Wondrous item,Y,All
+Figurine of wondrous power (silver raven),Wondrous item,N,All
+Gauntlets of ogre power,Wondrous item,Y,All
+Gem of brightness,Wondrous item,N,All
+Gloves of missile snaring,Wondrous item,Y,All
+Gloves of swimming and climbing,Wondrous item,Y,All
+Gloves of thievery,Wondrous item,N,All
+Hat of disguise,Wondrous item,Y,All
+Headband of intellect,Wondrous item,Y,All
+Helm of telepathy,Wondrous item,Y,All
+Instrument of the bards (Doss lute),Wondrous item,Y,Bard
+Instrument of the bards (Fochlucan bandore),Wondrous item,Y,Bard
+Instrument of the bards (Mac-Fuirmidh cittern),Wondrous item,Y,Bard
+Javelin of lightning,Weapon,N,All
+Medallion of thoughts,Wondrous item,Y,All
+Necklace of adaptation,Wondrous item,Y,All
+Pearl of power,Wondrous item,Y,spellcaster
+Periapt of wound closure,Wondrous item,Y,All
+Pipes of haunting,Wondrous item,N,All
+Pipes of the sewers,Wondrous item,Y,All
+Quiver of Ehlonna,Wondrous item,N,All
+Ring of jumping,Ring,Y,All
+Ring of mind shielding,Ring,Y,All
+Ring of warmth,Ring,Y,All
+Ring of water walking,Ring,N,All
+Rod of the pact keeper +1,Rod,Yes,Warlock
+Sentinel shield,Armor,N,All
+Shield +1,Armor,N,All
+Slippers of spider climbing,Wondrous item,Y,All
+Staff of the adder,Staff,Y,cleric|druid|warlock
+Staff of the python,Staff,Y,cleric|druid|warlock
+Stone of good luck (luck-stone),Wondrous item,Y,All
+Sword of vengeance,Weapon,Y,All
+Trident of fish command,Weapon,Y,All
+Wand of magic missiles,Wand,N,All
+Wand of the war mage +1,Wand,Y,spellcaster
+Wand of web,Wand,Y,spellcaster
+Weapon of warning,Weapon,Y,All
+Weapon +1,Weapon,N,All
+Wind fan,Wondrous item,N,All
+Winged boots,Wondrous item,Y,All

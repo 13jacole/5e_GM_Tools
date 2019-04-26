@@ -1,53 +1,53 @@
-Item	Type	Attune	Restrictions
-Armor of gleaming	Armor	N	All
-Bead of nourishment	Wondrous item	N	All
-Bead of refreshment	Wondrous item	N	All
-Boots of false tracks	Wondrous item	N	All
-Candle of the deep	Wondrous item	N	All
-Cast-off armor	Armor	N	All
-Charlatan's Die	Wondrous item	Y	All
-Cloak of billowing	Wondrous item	N	All
-Cloak of many fashions	Wondrous item	N	All
-Clockwork amulet	Wondrous item	N	All
-Clothes of mending	Wondrous item	N	All
-Dark shard amulet	Wondrous item	Y	Warlock
-Dread helm	Wondrous item	N	All
-Ear horn of hearing	Wondrous item	N	All
-Enduring spellbook	Wondrous item	N	All
-Ersatz eye	Wondrous item	Y	All
-Hat of vermin	Wondrous item	N	All
-Hat of wizardry	Wondrous item	Y	Wizard
-Heward's handy spice pouch	Wondrous item	N	All
-Horn of silent alarm	Wondrous item	N	All
-Instrument of illusions	Wondrous item	Y	All
-Instrument of scribing	Wondrous item	Y	All
-Lock of trickery	Wondrous item	N	All
-Moon-touched sword	Weapon	N	All
-Mystery key	Wondrous item	N	All
-Orb of direction	Wondrous item	N	All
-Orb of time	Wondrous item	N	All
-Perfume of bewitching	Wondrous item	N	All
-Pipe of smoke monsters	Wondrous item	N	All
-Pole of angling	Wondrous item	N	All
-Pole of collapsing	Wondrous item	N	All
-Pot of awakening	Wondrous item	N	All
-Potion of climbing	Potion	N	All
-Potion of healing	Potion	N	All
-Rope of mending 	Wondrous item	N	All
-Ruby of the war mage	Wondrous item	Y	Spellcaster
-Shield of expression	Armor	N	All
-Smoldering armor	Armor	N	All
-Spell scroll (cantrip)	Scroll	N	All
-Spell scroll (1st level)	Scroll	N	All
-Staff of adornment	Staff	N	All
-Staff of birdcalls	Staff	N	All
-Staff of flowers	Staff	N	All
-Talking doll	Wondrous item	Y	All
-Tankard of sobriety	Wondrous item	N	All
-Unbreakable arrow	Weapon	N	All
-Veteran's cane	Wondrous item	N	All
-Walloping ammunition	Weapon	N	All
-Wand of conducting	Wand	N	All
-Wand of pyrotechnics	Wand	N	All
-Wand of scowls	Wand	N	All
-Wand of smiles	Wand	N	All
+Item,Type,Attune,Restrictions
+Armor of gleaming,Armor,N,All
+Bead of nourishment,Wondrous item,N,All
+Bead of refreshment,Wondrous item,N,All
+Boots of false tracks,Wondrous item,N,All
+Candle of the deep,Wondrous item,N,All
+Cast-off armor,Armor,N,All
+Charlatan's Die,Wondrous item,Y,All
+Cloak of billowing,Wondrous item,N,All
+Cloak of many fashions,Wondrous item,N,All
+Clockwork amulet,Wondrous item,N,All
+Clothes of mending,Wondrous item,N,All
+Dark shard amulet,Wondrous item,Y,Warlock
+Dread helm,Wondrous item,N,All
+Ear horn of hearing,Wondrous item,N,All
+Enduring spellbook,Wondrous item,N,All
+Ersatz eye,Wondrous item,Y,All
+Hat of vermin,Wondrous item,N,All
+Hat of wizardry,Wondrous item,Y,Wizard
+Heward's handy spice pouch,Wondrous item,N,All
+Horn of silent alarm,Wondrous item,N,All
+Instrument of illusions,Wondrous item,Y,All
+Instrument of scribing,Wondrous item,Y,All
+Lock of trickery,Wondrous item,N,All
+Moon-touched sword,Weapon,N,All
+Mystery key,Wondrous item,N,All
+Orb of direction,Wondrous item,N,All
+Orb of time,Wondrous item,N,All
+Perfume of bewitching,Wondrous item,N,All
+Pipe of smoke monsters,Wondrous item,N,All
+Pole of angling,Wondrous item,N,All
+Pole of collapsing,Wondrous item,N,All
+Pot of awakening,Wondrous item,N,All
+Potion of climbing,Potion,N,All
+Potion of healing,Potion,N,All
+Rope of mending ,Wondrous item,N,All
+Ruby of the war mage,Wondrous item,Y,Spellcaster
+Shield of expression,Armor,N,All
+Smoldering armor,Armor,N,All
+Spell scroll (cantrip),Scroll,N,All
+Spell scroll (1st level),Scroll,N,All
+Staff of adornment,Staff,N,All
+Staff of birdcalls,Staff,N,All
+Staff of flowers,Staff,N,All
+Talking doll,Wondrous item,Y,All
+Tankard of sobriety,Wondrous item,N,All
+Unbreakable arrow,Weapon,N,All
+Veteran's cane,Wondrous item,N,All
+Walloping ammunition,Weapon,N,All
+Wand of conducting,Wand,N,All
+Wand of pyrotechnics,Wand,N,All
+Wand of scowls,Wand,N,All
+Wand of smiles,Wand,N,All

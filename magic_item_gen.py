@@ -43,7 +43,6 @@ else:
 #import file
 itemfile = str(item_scope) + '_' + str(item_rarity) + '.csv'
 my_data = pd.read_csv(itemfile, delimiter=',', header=0)
-print(my_data)
 
 #Determine item filter decision
 print('Do you want to filter by item type? (Y/N): ')
@@ -134,9 +133,17 @@ while number > 0:
 	(rows, cols) = item_data.shape
 	x = random.randint(0, (rows-1))
 	
+	if item_data.iloc[x,3] != 'All':
+		print(item_dat.iloc[x,0] + " has the following use restriction: " + item_data.iloc[x,3])
+		print("Do you want to generate a different item? (Y/N)")
+		Rest_Dec = input()
+	
+	#if yes, skip below. Else, continue.
 	#output
 	print('/////////////////')
 	print(item_data.iloc[x])
 	print('/////////////////')
+	
+	#print to specified text file
 	
 	number = number - 1

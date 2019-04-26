@@ -1,26 +1,26 @@
-Item	Type	Attune	Restrictions
-Ammunition +2	Weapon	N	All
-Bag of beans	Wondrous item	N	All
-Bead of force	Wondrous item	N	All
-Chime of opening	Wondrous item	N	All
-Elixer of health	Potion	N	All
-Folding boat	Wondrous item	N	All
-Heward's handy haversack	Wondrous item	N	All
-Horseshoes of speed	Wondrous item	N	All
-Necklace of fireballs	Wondrous item	N	All
-Oil of etherealness	Potion	N	All
-Portable hole	Wondrous item	N	All
-Potion of clairvoyance	Potion	N	All
-Potion of diminution	Potion	N	All
-Potion of fire giant strength	Potion	N	All
-Potion of frost giant strength	Potion	N	All
-Potion of gaseous form	Potion	N	All
-Potion of heroism	Potion	N	All
-Potion of invulnerability	Potion	N	All
-Potion of mind reading	Potion	N	All
-Potion of stone giant strength	Potion	N	All
-Potion of superior healing	Potion	N	All
-Quaal's feather token	Wondrous item	N	All
-Scroll of protection	Scroll	N	All
-Spell scroll (4th level)	Scroll	N	All
-Spell scroll (5th level)	Scroll	N	All
+Item,Type,Attune,Restrictions
+Ammunition +2,Weapon,N,All
+Bag of beans,Wondrous item,N,All
+Bead of force,Wondrous item,N,All
+Chime of opening,Wondrous item,N,All
+Elixer of health,Potion,N,All
+Folding boat,Wondrous item,N,All
+Heward's handy haversack,Wondrous item,N,All
+Horseshoes of speed,Wondrous item,N,All
+Necklace of fireballs,Wondrous item,N,All
+Oil of etherealness,Potion,N,All
+Portable hole,Wondrous item,N,All
+Potion of clairvoyance,Potion,N,All
+Potion of diminution,Potion,N,All
+Potion of fire giant strength,Potion,N,All
+Potion of frost giant strength,Potion,N,All
+Potion of gaseous form,Potion,N,All
+Potion of heroism,Potion,N,All
+Potion of invulnerability,Potion,N,All
+Potion of mind reading,Potion,N,All
+Potion of stone giant strength,Potion,N,All
+Potion of superior healing,Potion,N,All
+Quaal's feather token,Wondrous item,N,All
+Scroll of protection,Scroll,N,All
+Spell scroll (4th level),Scroll,N,All
+Spell scroll (5th level),Scroll,N,All

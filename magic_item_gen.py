@@ -13,14 +13,12 @@ import numpy as np
 
 """
 magic_item_gen.py: Random amgic item selection program
-       Usage: python magic_item_gen.py -s major/minor -r common/uncommon/rare/veryrare/legendary
+       Usage: python magic_item_gen.py -s major/minor -r common/uncommon/rare/veryrare/legendary -n number of items to be generated
 """
 
 #meta information
 __author__ = "Jakob Cole"
-__version__ = "2019.04.25"
 __maintainer__ = "Jakob Cole"
-__email__ = "jakobcole13@gmail.com"
 
 #arguments
 pa = argparse.ArgumentParser()
@@ -45,6 +43,7 @@ else:
 #import file
 itemfile = str(item_scope) + '_' + str(item_rarity) + '.csv'
 my_data = pd.read_csv(itemfile, delimiter=',', header=0)
+print(my_data)
 
 #Determine item filter decision
 print('Do you want to filter by item type? (Y/N): ')
@@ -53,15 +52,44 @@ dec = input()
 if dec.lower() == 'y' or dec.lower == 'yes':
 	print('Using the following list, please select which item types you want to choose from\n')
 	print('Selection Number -- Item Type\n')
-	print('       1         -- Armor\n')
-	print('       2         -- Potion\n')
-	print('       3         -- Ring\n')
-	print('       4         -- Rod\n')
-	print('       5         -- Scroll\n')
-	print('       6         -- Staff\n')
-	print('       7         -- Wand\n')
-	print('       8         -- Weapon\n')
-	print('       9         -- Wondrous Item\n\n')
+	
+	filt_data = my_data[my_data['Type'].isin(['Armor'])]
+	(rows, cols) = filt_data.shape
+	if rows > 0:
+		print('       1         -- Armor\n')
+	filt_data = my_data[my_data['Type'].isin(['Potion'])]
+	(rows, cols) = filt_data.shape
+	if rows > 0:
+		print('       2         -- Potion\n')
+	filt_data = my_data[my_data['Type'].isin(['Ring'])]
+	(rows, cols) = filt_data.shape
+	if rows > 0:
+		print('       3         -- Ring\n')
+	filt_data = my_data[my_data['Type'].isin(['Rod'])]
+	(rows, cols) = filt_data.shape
+	if rows > 0:
+		print('       4         -- Rod\n')
+	filt_data = my_data[my_data['Type'].isin(['Scroll'])]
+	(rows, cols) = filt_data.shape
+	if rows > 0:
+		print('       5         -- Scroll\n')
+	filt_data = my_data[my_data['Type'].isin(['Staff'])]
+	(rows, cols) = filt_data.shape
+	if rows > 0:
+		print('       6         -- Staff\n')
+	filt_data = my_data[my_data['Type'].isin(['Wand'])]
+	(rows, cols) = filt_data.shape
+	if rows > 0:
+		print('       7         -- Wand\n')
+	filt_data = my_data[my_data['Type'].isin(['Weapon'])]
+	(rows, cols) = filt_data.shape
+	if rows > 0:
+		print('       8         -- Weapon\n')
+	filt_data = my_data[my_data['Type'].isin(['Wondrous Item'])]
+	(rows, cols) = filt_data.shape
+	if rows > 0:
+		print('       9         -- Wondrous Item\n\n')
+	
 	print('Please use the number selection column.\n')
 	print('If you have more than one item type you want to pick from\n')
 	print('please put all applicable numbers\n')
@@ -100,14 +128,11 @@ if dec.lower() == 'y' or dec.lower == 'yes':
 	item_data = my_data[my_data['Type'].isin(typefiltname)]
 else:
 	item_data = my_data
-#### add filter code using https://cmdlinetips.com/2018/02/how-to-subset-pandas-dataframe-based-on-values-of-a-column/
 
 while number > 0:
 	#pick random item
 	(rows, cols) = item_data.shape
-	x = random.randint(0, rows)
-	
-	#Add code to handle filtering out all types (i.e. there are no major legendary potions)
+	x = random.randint(0, (rows-1))
 	
 	#output
 	print('/////////////////')

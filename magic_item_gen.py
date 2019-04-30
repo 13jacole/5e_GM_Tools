@@ -153,6 +153,7 @@ while number > 0:
 			f.write('Type: ' + item_data.iloc[x, 1] + "\n")
 			f.write('Attune: ' + item_data.iloc[x, 2] + "\n")
 			f.write('Restrictions: ' + item_data.iloc[x, 3] + "\n")
+			f.write('Source: ' + item_data.iloc[x, 4] + "\n")
 			f.write('/////////////////\n')
 			
 		print('/////////////////')

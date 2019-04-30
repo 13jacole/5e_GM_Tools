@@ -6,7 +6,7 @@ Many of the tools I am making are probably nothing new, but other ones don't do 
 
 A tool that will randomly select X many magic items of Y rarity. Will output/append to specified file.
 
-###### Required packages:
+##### Required packages:
 
 - Numpy
 - Pandas

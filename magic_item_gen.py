@@ -133,6 +133,7 @@ if dec.lower() == 'y' or dec.lower == 'yes':
 else:
 	item_data = my_data
 
+f.write(item_scope + " " + item_rarity + "\n")
 while number > 0:
 	#pick random item
 	(rows, cols) = item_data.shape

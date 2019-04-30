@@ -1,12 +1,12 @@
 Item,Type,Attune,Restrictions,Source
 Amulet of health,Wondreous item,Y,All,dmg 150
 Armor of resistance,Armor,Y,All,dmg 152
-Armor of vulnerability,Armor,Y,All,dmg 152
+Armor of vulnerability,Armor,Y,Plate,dmg 152
 Armor +1,Armor,N,All,dmg 152
-Arrow-catching shield,Armor,Y,All,dmg 152
+Arrow-catching shield,Armor,Y,Shield,dmg 152
 Belt of dwarvenkind,Wondreous item,Y,All,dmg 155
 Belt of hill giant strength,Wondreous item,Y,All,dmg 155
-Berserker axe,Weapon,Y,All,dmg 155
+Berserker axe,Weapon,Y,Any Axe,dmg 155
 Boots of levitation,Wondreous item,Y,All,dmg 155
 Boots of speed,Wondreous item,Y,All,dmg 155
 Bowl of commanding water elementals,Wondreous item,N,All,dmg 156
@@ -18,10 +18,10 @@ Cloak of displacement,Wondreous item,Y,All,dmg 158
 Cloak of the bat,Wondreous item,Y,All,dmg 159
 Cube of force,Wondreous item,Y,All,dmg 159
 Daern's instant fortress,Wondreous item,N,All,dmg 160
-Dagger of venom,Weapon,N,All,dmg 161
+Dagger of venom,Weapon,N,Dagger,dmg 161
 Dimensional shackles,Wondreous item,N,All,dmg 165
-Dragon slayer,Weapon,N,All,dmg 166
-Elven chain,Armor,N,All,dmg 168
+Dragon slayer,Weapon,N,Any Sword,dmg 166
+Elven chain,Armor,N,Chain shirt,dmg 168
 Figurine of wondrous power (bronze griffon),Wondreous item,N,All,dmg 169
 Figurine of wondrous power (ebony fly),Wondreous item,N,All,dmg 169
 Figurine of wondrous power (golden lions),Wondreous item,N,All,dmg 169
@@ -29,10 +29,10 @@ Figurine of wondrous power (ivory goats),Wondreous item,N,All,dmg 169
 Figurine of wondrous power (marble elephant),Wondreous item,N,All,dmg 170
 Figurine of wondrous power (onyx dog),Wondreous item,N,All,dmg 170
 Figurine of wondrous power (serpentine owl),Wondreous item,N,All,dmg 170
-Flame tongue,Weapon,Y,All,dmg 170
+Flame tongue,Weapon,Y,Any sword,dmg 170
 Gem of seeing,Wondreous item,Y,All,dmg 172
-Giant slayer,Weapon,N,All,dmg 172
-Glamoured studded leather,Armor,N,All,dmg 172
+Giant slayer,Weapon,N,Any axe or sword,dmg 172
+Glamoured studded leather,Armor,N,studded leather,dmg 172
 Helm of teleportation,Wondreous item,Y,All,dmg 174
 Horn of blasting,Wondreous item,N,All,dmg 174
 Horn of Valhalla (brass),Wondreous item,N,All,dmg 175
@@ -44,11 +44,11 @@ Ioun stone (protection),Wondreous item,Y,All,dmg 176
 Ioun stone (reserve),Wondreous item,Y,All,dmg 176
 Ioun stone (sustenance),Wondreous item,Y,All,dmg 176
 Iron bands of Bilarro,Wondreous item,N,All,dmg 177
-Mace of disruption,Weapon,Y,All,dmg 179
-Mace of smiting,Weapon,N,All,dmg 179
-Mace of terror,Weapon,Y,All,dmg 180
+Mace of disruption,Weapon,Y,Mace,dmg 179
+Mace of smiting,Weapon,N,Mace,dmg 179
+Mace of terror,Weapon,Y,Mace,dmg 180
 Mantle of spell resistance,Wondreous item,Y,All,dmg 180
-Necklace of prayer beads,Wondreous item,Y,cleric|druid|paladin,dmg 182
+Necklace of prayer beads,Wondreous item,Y,"cleric, druid, or paladin",dmg 182
 Periapt of proof against poison,Wondreous item,N,All,dmg 184
 Ring of animal influence,Ring,N,All,dmg 189
 Ring of evasion,Ring,Y,All,dmg 191
@@ -63,17 +63,17 @@ Robe of eyes,Wondreous item,Y,All,dmg 193
 Rod of rulership,Rod,Y,All,dmg 197
 Rod of the pact keeper +2,Rod,Y,warlock,dmg 197
 Rope of entanglement,Wondreous item,N,All,dmg 197
-Shield of missile attraction,Armor,N,All,dmg 200
-Shield +2,Armor,N,All,dmg 200
-Staff of charming,Staff,Y,bard|cleric|druid|sorcerer|warlock|wizard,dmg 201
-Staff of healing,Staff,Y,bard|cleric|druid,dmg 202
-Staff of swarming insects,Staff,Y,bard|cleric|druid|sorcerer|warlock|wizard,dmg 203
+Shield of missile attraction,Armor,N,shield,dmg 200
+Shield +2,Armor,N,shield,dmg 200
+Staff of charming,Staff,Y,"bard, cleric, druid, sorcerer, warlock, or wizard",dmg 201
+Staff of healing,Staff,Y,"bard, cleric, or druid",dmg 202
+Staff of swarming insects,Staff,Y,"bard, cleric, druid, sorcerer, warlock, or wizard",dmg 203
 Staff of the woodlands,Staff,Y,druid,dmg 204
-Staff of withering,Staff,Y,cleric|druid|warlock,dmg 205
+Staff of withering,Staff,Y,"cleric, druid, or warlock",dmg 205
 Stone of controlling earth elementals,Wondreous item,N,All,dmg 205
-Sun blade,Weapon,Y,All,dmg 205
-Sword of life stealing,Weapon,Y,All,dmg 206
-Sword of wounding,Weapon,Y,All,dmg 207
+Sun blade,Weapon,Y,longsword,dmg 205
+Sword of life stealing,Weapon,Y,any sword,dmg 206
+Sword of wounding,Weapon,Y,any sword,dmg 207
 Tentacle rod,Rod,Y,All,gmd 208
 Vicious weapon,Weapon,N,All,dmg 209
 Wand of binding,Wand,Y,spellcaster,dmg 209

@@ -1,6 +1,6 @@
 Item,Type,Attune,Restrictions,Source
-Ammunition +3,Weapon,N,All,dmg 150
-Arrow of slaying,Weapon,N,All,dmg 152
+Ammunition +3,Weapon,N,Any ammunition,dmg 150
+Arrow of slaying,Weapon,N,Arrow,dmg 152
 Bag of devouring,Wondrous item,N,All,dmg 153
 Horseshoes of a zephyr,Wondrous item,N,All,dmg 175
 Nolzur's marvelous pigments,Wondrous item,N,All,dmg 183

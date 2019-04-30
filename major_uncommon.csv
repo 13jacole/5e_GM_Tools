@@ -1,5 +1,5 @@
 Item,Type,Attune,Restrictions,Source
-Adamantine armor,Armor,N,All,dmg 150
+Adamantine armor,Armor,N,"Medium or Heavy, but not hide",dmg 150
 Amulet of proof against detection and location,Wondrous item,Y,All,dmg 150
 Bag of tricks,Wondrous item,N,All,dmg 154
 Boots of elvenkind,Wondrous item,N,All,dmg 155
@@ -27,7 +27,7 @@ Helm of telepathy,Wondrous item,Y,All,dmg 174
 Instrument of the bards (Doss lute),Wondrous item,Y,Bard,dmg 176
 Instrument of the bards (Fochlucan bandore),Wondrous item,Y,Bard,dmg 176
 Instrument of the bards (Mac-Fuirmidh cittern),Wondrous item,Y,Bard,dmg 176
-Javelin of lightning,Weapon,N,All,dmg 178
+Javelin of lightning,Weapon,N,Javelin,dmg 178
 Medallion of thoughts,Wondrous item,Y,All,dmg 181
 Necklace of adaptation,Wondrous item,Y,All,dmg 182
 Pearl of power,Wondrous item,Y,spellcaster,dmg 184
@@ -40,14 +40,14 @@ Ring of mind shielding,Ring,Y,All,dmg 191
 Ring of warmth,Ring,Y,All,dmg 193
 Ring of water walking,Ring,N,All,dmg 193
 Rod of the pact keeper +1,Rod,Yes,Warlock,dmg 197
-Sentinel shield,Armor,N,All,dmg 199
-Shield +1,Armor,N,All,dmg 200
+Sentinel shield,Armor,N,Shield,dmg 199
+Shield +1,Armor,N,Shield,dmg 200
 Slippers of spider climbing,Wondrous item,Y,All,dmg 200
-Staff of the adder,Staff,Y,cleric|druid|warlock,dmg 203
-Staff of the python,Staff,Y,cleric|druid|warlock,dmg 204
+Staff of the adder,Staff,Y,"cleric, druid, or warlock",dmg 203
+Staff of the python,Staff,Y,"cleric, druid, or warlock",dmg 204
 Stone of good luck (luck-stone),Wondrous item,Y,All,dmg 205
-Sword of vengeance,Weapon,Y,All,dgm 206
-Trident of fish command,Weapon,Y,All,dmg 209
+Sword of vengeance,Weapon,Y,Any sword,dgm 206
+Trident of fish command,Weapon,Y,Trident,dmg 209
 Wand of magic missiles,Wand,N,All,dmg 211
 Wand of the war mage +1,Wand,Y,spellcaster,dmg 212
 Wand of web,Wand,Y,spellcaster,dmg 212

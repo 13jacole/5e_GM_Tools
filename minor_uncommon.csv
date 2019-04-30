@@ -1,6 +1,6 @@
 Item,Type,Attune,Restrictions,Source
 Alchemy jug,Wondrous item,N,All,dmg 150
-Ammunition +1,Weapon,N,All,dmg 150
+Ammunition +1,Weapon,N,Any ammunition,dmg 150
 Bag of holding,Wondrous item,N,All,dmg 153
 Cap of water breathing,Wondrous item,N,All,dmg 157
 Cloak of the manta ray,Wondrous item,N,All,dmg 159
@@ -17,7 +17,7 @@ Immovable rod,Rod,N,All,dmg 175
 Keoghtom's ointment,Wondrous item,N,All,dmg 179
 Lantern of revealing,Wondrous item,N,All,dmg 179
 Mariner's armor,Armor,N,All,dmg 181
-Mithral armor,Armor,N,All,dmg 182
+Mithral armor,Armor,N,"Medium or Heavy, but not hide",dmg 182
 Oil of slipperiness,Potion,N,All,dmg 184
 Periapt of health,Wondrous item,N,All,dmg 184
 Philter of love,Potion,N,All,dmg 184

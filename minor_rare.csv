@@ -1,5 +1,5 @@
 Item,Type,Attune,Restrictions,Source
-Ammunition +2,Weapon,N,All,dmg 150
+Ammunition +2,Weapon,N,Any ammunition,dmg 150
 Bag of beans,Wondrous item,N,All,dmg 152
 Bead of force,Wondrous item,N,All,dmg 154
 Chime of opening,Wondrous item,N,All,dmg 158

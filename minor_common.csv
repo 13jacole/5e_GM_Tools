@@ -1,10 +1,10 @@
 Item,Type,Attune,Restrictions,Source
-Armor of gleaming,Armor,N,All,xge 136
+Armor of gleaming,Armor,N,Medium or Heavy,xge 136
 Bead of nourishment,Wondrous item,N,All,xge 136
 Bead of refreshment,Wondrous item,N,All,xge 136
 Boots of false tracks,Wondrous item,N,All,xge 136
 Candle of the deep,Wondrous item,N,All,xge 136
-Cast-off armor,Armor,N,All,xge 136
+Cast-off armor,Armor,N,"Light, Medium, or Heavy",xge 136
 Charlatan's Die,Wondrous item,Y,All,xge 136
 Cloak of billowing,Wondrous item,N,All,xge 136
 Cloak of many fashions,Wondrous item,N,All,xge 136
@@ -22,7 +22,7 @@ Horn of silent alarm,Wondrous item,N,All,xge 137
 Instrument of illusions,Wondrous item,Y,All,xge 137
 Instrument of scribing,Wondrous item,Y,All,xge 138
 Lock of trickery,Wondrous item,N,All,xge 138
-Moon-touched sword,Weapon,N,All,xge 138
+Moon-touched sword,Weapon,N,Any sword,xge 138
 Mystery key,Wondrous item,N,All,xge 138
 Orb of direction,Wondrous item,N,All,xge 138
 Orb of time,Wondrous item,N,All,xge 138
@@ -35,7 +35,7 @@ Potion of climbing,Potion,N,All,dmg 187
 Potion of healing,Potion,N,All,dmg 187
 Rope of mending ,Wondrous item,N,All,xge 138
 Ruby of the war mage,Wondrous item,Y,Spellcaster,xge 138
-Shield of expression,Armor,N,All,xge 139
+Shield of expression,Armor,N,Shield,xge 139
 Smoldering armor,Armor,N,All,xge 139
 Spell scroll (cantrip),Scroll,N,All,dmg 200
 Spell scroll (1st level),Scroll,N,All,dmg 200
@@ -44,9 +44,9 @@ Staff of birdcalls,Staff,N,All,xge 139
 Staff of flowers,Staff,N,All,xge 139
 Talking doll,Wondrous item,Y,All,xge 139
 Tankard of sobriety,Wondrous item,N,All,xge 139
-Unbreakable arrow,Weapon,N,All,xge 139
+Unbreakable arrow,Weapon,N,Arrow,xge 139
 Veteran's cane,Wondrous item,N,All,xge 139
-Walloping ammunition,Weapon,N,All,xge 139
+Walloping ammunition,Weapon,N,Any Ammunition,xge 139
 Wand of conducting,Wand,N,All,xge 140
 Wand of pyrotechnics,Wand,N,All,xge 140
 Wand of scowls,Wand,N,All,xge 140

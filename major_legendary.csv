@@ -1,45 +1,45 @@
-Item	Type	Attune	Restrictions	Source
-Apparatus of Kwalish	Wondrous item	N	All	dmg 151
-Armor of invulnerability	Armor	Y	All	dmg 152
-Armor +3	Armor	N	All	dmg 152
-Belt of cloud giant strength	Wondrous item	Y	All	dmg 155
-Belt of storm giant strength	Wondrous item	Y	All	dmg 155
-Cloak of invisibility	Wondrous item	Y	All	dmg 158
-Crystal ball of mind reading	Wondrous item	Y	All	dmg 159
-Crystal ball of telepathy	Wondrous item	Y	All	dmg 159
-Crystal ball of true seeing	Wondrous item	Y	All	dmg 159
-Cubic gate	Wondrous item	N	All	dmg 160
-Deck of many things	Wondrous item	N	All	dmg 162
-Defender	Weapon	Y	All	dmg 164
-Efreeti chain	Armor	Y	All	dmg 167
-Hammer of thunderbolts	Weapon	Y	"Maul, Giants Bane"	dmg 173
-Holy avenger	Weapon	Y	paladin	dmg 174
-Horn of Valhalla (iron)	Wondrous item	N	All	dmg 175
-Instrument of the bards (Ollamh harp)	Wondrous item	Y	bard	dmg 176
-Ioun stone (greater absorption)	Wondrous item	Y	All	dmg 176
-Ioun stone (master)	Wondrous item	Y	All	dmg 176
-Ioun stone (regeneration)	Wondrous item	Y	All	dmg 176
-Iron flask	Wondrous item	N	All	dmg 178
-Luck blade	Weapon	Y	All	dmg 179
-Plate armor of etherealness	Armor	Y	All	dmg 185
-Ring of air elemental command	Ring	Y	All	dmg 190
-Ring of djinni summoning	Ring	Y	All	dmg 190
-Ring of earth elemental command	Ring	Y	All	dmg 190
-Ring of fire elemental command	Ring	Y	All	dmg 190
-Ring of invisibility	Ring	Y	All	dmg 191
-Ring of spell turning	Ring	Y	All	dmg 193
-Ring of three wishes	Ring	N	All	dmg 193
-Ring of water elemental command	Ring	Y	All	dmg 190
-Robe of the archmagi	Wondrous item	Y	sorcerer|warlock|wizard	dmg 194
-Rod of lordly might	Rod	Y	All	dmg 196
-Rod of resurrection	Rod	Y	cleric|druid|paladin	dmg 197
-Scarab of protection	Wondrous item	Y	All	dmg 199
-Sphere of annihilation	Wondrous item	N	All	dmg 201
-Staff of the magi	Staff	Y	sorcerer|warlock|wizard	dmg 203
-Sword of answering	Weapon	Y	same alignment as sword	dmg 206
-Talisman of pure good	Wondrous item	Y	creature of good alignment	dmg 207
-Talisman of the sphere	Wondrous item	Y	All	dmg 207
-Talisman of ultimate evil	Wondrous item	Y	creature of evil alignment	dmg 207
-Tome of the stilled tongue	Wondrous item	Y	wizard	dmg 208
-Vorpal sword	Weapon	Y	All	dmg 209
-Well of many worlds	Wondrous item	N	All	dmg 213
+Item,Type,Attune,Restrictions,Source
+Apparatus of Kwalish,Wondrous item,N,All,dmg 151
+Armor of invulnerability,Armor,Y,Plate,dmg 152
+Armor +3,Armor,N,All,dmg 152
+Belt of cloud giant strength,Wondrous item,Y,All,dmg 155
+Belt of storm giant strength,Wondrous item,Y,All,dmg 155
+Cloak of invisibility,Wondrous item,Y,All,dmg 158
+Crystal ball of mind reading,Wondrous item,Y,All,dmg 159
+Crystal ball of telepathy,Wondrous item,Y,All,dmg 159
+Crystal ball of true seeing,Wondrous item,Y,All,dmg 159
+Cubic gate,Wondrous item,N,All,dmg 160
+Deck of many things,Wondrous item,N,All,dmg 162
+Defender,Weapon,Y,Any Sword,dmg 164
+Efreeti chain,Armor,Y,Chain mail,dmg 167
+Hammer of thunderbolts,Weapon,Y,Maul,dmg 173
+Holy avenger,Weapon,Y,"Any sword, paladin",dmg 174
+Horn of Valhalla (iron),Wondrous item,N,All,dmg 175
+Instrument of the bards (Ollamh harp),Wondrous item,Y,bard,dmg 176
+Ioun stone (greater absorption),Wondrous item,Y,All,dmg 176
+Ioun stone (master),Wondrous item,Y,All,dmg 176
+Ioun stone (regeneration),Wondrous item,Y,All,dmg 176
+Iron flask,Wondrous item,N,All,dmg 178
+Luck blade,Weapon,Y,Any sword,dmg 179
+Plate armor of etherealness,Armor,Y,Plate,dmg 185
+Ring of air elemental command,Ring,Y,All,dmg 190
+Ring of djinni summoning,Ring,Y,All,dmg 190
+Ring of earth elemental command,Ring,Y,All,dmg 190
+Ring of fire elemental command,Ring,Y,All,dmg 190
+Ring of invisibility,Ring,Y,All,dmg 191
+Ring of spell turning,Ring,Y,All,dmg 193
+Ring of three wishes,Ring,N,All,dmg 193
+Ring of water elemental command,Ring,Y,All,dmg 190
+Robe of the archmagi,Wondrous item,Y,"sorcerer, warlock, or wizard",dmg 194
+Rod of lordly might,Rod,Y,All,dmg 196
+Rod of resurrection,Rod,Y,"cleric, druid, or paladin",dmg 197
+Scarab of protection,Wondrous item,Y,All,dmg 199
+Sphere of annihilation,Wondrous item,N,All,dmg 201
+Staff of the magi,Staff,Y,"sorcerer, warlock, or wizard",dmg 203
+Sword of answering,Weapon,Y,"longsword, same alignment as sword",dmg 206
+Talisman of pure good,Wondrous item,Y,good alignment,dmg 207
+Talisman of the sphere,Wondrous item,Y,All,dmg 207
+Talisman of ultimate evil,Wondrous item,Y,evil alignment,dmg 207
+Tome of the stilled tongue,Wondrous item,Y,wizard,dmg 208
+Vorpal sword,Weapon,Y,any sword that deals slashing damage,dmg 209
+Well of many worlds,Wondrous item,N,All,dmg 213

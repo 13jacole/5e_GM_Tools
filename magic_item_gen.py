@@ -13,7 +13,7 @@ import numpy as np
 
 """
 magic_item_gen.py: Random amgic item selection program
-       Usage: python magic_item_gen.py -s major/minor -r common/uncommon/rare/veryrare/legendary -n number of items to be generated
+       Usage: python magic_item_gen.py -s major/minor -r common/uncommon/rare/veryrare/legendary -n number of items to be generated (optional -- Default 1) -o Name of output text file
 """
 
 #meta information
@@ -30,6 +30,9 @@ pa.add_argument('-r', '--rarity', action='store', nargs=1, dest='item_rarity',
 
 pa.add_argument('-n', '--num', action='store', nargs=1, dest='number',
                 help='number of items outputted')
+				
+pa.add_argument('-o', '--out', action='store', nargs=1, dest='outFile',
+                help='file to output file to', required=True)
 
 args = pa.parse_args()	
 
@@ -39,6 +42,8 @@ if args.number is not None:
 	number = int(args.number[0])
 else:
 	number = 1
+	
+f = open(args.outFile[0], "a+")
 
 #import file
 itemfile = str(item_scope) + '_' + str(item_rarity) + '.csv'
@@ -134,16 +139,23 @@ while number > 0:
 	x = random.randint(0, (rows-1))
 	
 	if item_data.iloc[x,3] != 'All':
-		print(item_dat.iloc[x,0] + " has the following use restriction: " + item_data.iloc[x,3])
+		print(item_data.iloc[x,0] + " has the following use restriction: " + item_data.iloc[x,3])
 		print("Do you want to generate a different item? (Y/N)")
 		Rest_Dec = input()
+	else:
+		Rest_Dec = 'n'
 	
-	#if yes, skip below. Else, continue.
-	#output
-	print('/////////////////')
-	print(item_data.iloc[x])
-	print('/////////////////')
-	
-	#print to specified text file
-	
-	number = number - 1
+	if Rest_Dec.lower() == 'n' or Rest_Dec.lower == 'no':
+		if args.outFile is not None:
+			f.write('/////////////////\n')
+			f.write('Item: ' + item_data.iloc[x, 0] + "\n")
+			f.write('Type: ' + item_data.iloc[x, 1] + "\n")
+			f.write('Attune: ' + item_data.iloc[x, 2] + "\n")
+			f.write('Restrictions: ' + item_data.iloc[x, 3] + "\n")
+			f.write('/////////////////\n')
+			
+		print('/////////////////')
+		print(item_data.iloc[x])
+		print('/////////////////')
+		
+		number = number - 1

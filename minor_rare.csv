@@ -1,26 +1,26 @@
-Item,Type,Attune,Restrictions
-Ammunition +2,Weapon,N,All
-Bag of beans,Wondrous item,N,All
-Bead of force,Wondrous item,N,All
-Chime of opening,Wondrous item,N,All
-Elixer of health,Potion,N,All
-Folding boat,Wondrous item,N,All
-Heward's handy haversack,Wondrous item,N,All
-Horseshoes of speed,Wondrous item,N,All
-Necklace of fireballs,Wondrous item,N,All
-Oil of etherealness,Potion,N,All
-Portable hole,Wondrous item,N,All
-Potion of clairvoyance,Potion,N,All
-Potion of diminution,Potion,N,All
-Potion of fire giant strength,Potion,N,All
-Potion of frost giant strength,Potion,N,All
-Potion of gaseous form,Potion,N,All
-Potion of heroism,Potion,N,All
-Potion of invulnerability,Potion,N,All
-Potion of mind reading,Potion,N,All
-Potion of stone giant strength,Potion,N,All
-Potion of superior healing,Potion,N,All
-Quaal's feather token,Wondrous item,N,All
-Scroll of protection,Scroll,N,All
-Spell scroll (4th level),Scroll,N,All
-Spell scroll (5th level),Scroll,N,All
+Item,Type,Attune,Restrictions,Source
+Ammunition +2,Weapon,N,All,dmg 150
+Bag of beans,Wondrous item,N,All,dmg 152
+Bead of force,Wondrous item,N,All,dmg 154
+Chime of opening,Wondrous item,N,All,dmg 158
+Elixer of health,Potion,N,All,dmg 168
+Folding boat,Wondrous item,N,All,dmg 170
+Heward's handy haversack,Wondrous item,N,All,dmg 174
+Horseshoes of speed,Wondrous item,N,All,dmg 175
+Necklace of fireballs,Wondrous item,N,All,dmg 182
+Oil of etherealness,Potion,N,All,dmg 183
+Portable hole,Wondrous item,N,All,dmg 185
+Potion of clairvoyance,Potion,N,All,dmg 187
+Potion of diminution,Potion,N,All,dmg 187
+Potion of fire giant strength,Potion,N,All,dmg 187
+Potion of frost giant strength,Potion,N,All,dmg 187
+Potion of gaseous form,Potion,N,All,dmg 187
+Potion of heroism,Potion,N,All,dmg 188
+Potion of invulnerability,Potion,N,All,dmg 188
+Potion of mind reading,Potion,N,All,dmg 188
+Potion of stone giant strength,Potion,N,All,dmg 187
+Potion of superior healing,Potion,N,All,dmg 187
+Quaal's feather token,Wondrous item,N,All,dmg 188
+Scroll of protection,Scroll,N,All,dmg 199
+Spell scroll (4th level),Scroll,N,All,dmg 200
+Spell scroll (5th level),Scroll,N,All,dmg 200

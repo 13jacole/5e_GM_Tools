@@ -1,5 +1,5 @@
-Item,Type,Attune,Restrictions
-Potion of storm giant strength,Potion,N,All
-Sovereign glue,Wondrous item,N,All
-Spell scroll (9th level),Scroll,N,All
-Universal solvent,Wondrous item,N,All
+Item,Type,Attune,Restrictions,Source
+Potion of storm giant strength,Potion,N,All,dmg 187
+Sovereign glue,Wondrous item,N,All,dmg 200
+Spell scroll (9th level),Scroll,N,All,dmg 200
+Universal solvent,Wondrous item,N,All,dmg 209

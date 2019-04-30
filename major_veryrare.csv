@@ -1,60 +1,60 @@
-Item,Type,Attune,Restrictions
-Amulet of the planes,Wondrous item,Y,All
-Animated shield,Armor,Y,All
-Armor +2,Armor,N,All
-Belt of fire giant strength,Wondrous item,Y,All
-Belt of frost giant strength,Wondrous item,Y,All
-Belt of stone giant strength,Wondrous item,Y,All
-Candle of invocation,Wondrous item,Y,All
-Carpet of flying,Wondrous item,N,All
-Cloak of arachnida,Wondrous item,Y,All
-Crystal ball (very rare),Wondrous item,Y,All
-Dancing sword,Weapon,Y,All
-Demon armor,Armor,Y,All
-Dragon scale mail,Armor,Y,All
-Dwarven plate,Armor,Y,All
-Dwarven thrower,Weapon,Y,Dwarf
-Efreeti bottle,Wondrous item,N,All
-Figurine of wondrous power (obsidian steed),Wondrous item,N,All
-Frost brand,Weapon,Y,All
-Helm of brilliance,Wondrous item,Y,All
-Horn of valhalla (bronze),Wondrous item,N,All
-Instrument of the bards (Anstruth harp),Wondrous item,Y,Bard
-Ioun stone (absorption),Wondrous item,Y,All
-Ioun stone (agility),Wondrous item,Y,All
-Ioun stone (fortitude),Wondrous item,Y,All
-Ioun stone (insight),Wondrous item,Y,All
-Ioun stone (intellect),Wondrous item,Y,All
-Ioun stone (leadership),Wondrous item,Y,All
-Ioun stone (strength),Wondrous item,Y,All
-Manual of bodily health,Wondrous item,N,All
-Manual of gainful exercise,Wondrous item,N,All
-Manual of golems,Wondrous item,N,All
-Manual of quickness of action,Wondrous item,N,All
-Mirror of life trapping,Wondrous item,N,All
-Nine lives stealer,Weapon,Y,All
-Oathbow,Weapon,Y,All
-Ring of regeneration,Ring,Y,All
-Ring of shooting stars,Ring,Y,outdoors at night
-Ring of telekinesis,Ring,Y,All
-Robe of scintillating colors,Wondrous item,Y,All
-Robe of stars,Wondrous item,Y,All
-Rod of absorption,Rod,Y,All
-Rod of alertness,Rod,Y,All
-Rod of security,Rod,N,All
-Rod of the pact keeper +3,Rod,Y,warlock
-Scimitar of speed,Weapon,Y,All
-Shield +3,Armor,N,All
-Spellguard shield,Armor,Y,All
-Staff of fire,Staff,Y,druid|sorcerer|warlock|wizard
-Staff of frost,Staff,Y,druid|sorcerer|warlock|wizard
-Staff of power,Staff,Y,sorcerer|warlock|wizard
-Staff of striking,Staff,Y,All
-Staff of thunder and lightning,Staff,Y,All
-Sword of sharpness,Weapon,Y,All
-Tome of clear thought,Wondrous item,N,All
-Tome of leadership and influence,Wondrous item,N,All
-Tome of understanding,Wondrous item,N,All
-Wand of polymorph,Wand,Y,spellcaster
-Wand of the war mage +3,Wand,Y,spellcaster
-Weapon + 3,Weapon,N,All
+Item,Type,Attune,Restrictions,Source
+Amulet of the planes,Wondrous item,Y,All,dmg 150
+Animated shield,Armor,Y,All,dmg 151
+Armor +2,Armor,N,All,dmg 152
+Belt of fire giant strength,Wondrous item,Y,All,dmg 155
+Belt of frost giant strength,Wondrous item,Y,All,dmg 155
+Belt of stone giant strength,Wondrous item,Y,All,dmg 155
+Candle of invocation,Wondrous item,Y,All,dmg 157
+Carpet of flying,Wondrous item,N,All,dmg 157
+Cloak of arachnida,Wondrous item,Y,All,dmg 158
+Crystal ball (very rare),Wondrous item,Y,All,dmg 159
+Dancing sword,Weapon,Y,All,dmg 161
+Demon armor,Armor,Y,All,dmg 165
+Dragon scale mail,Armor,Y,All,dmg 165
+Dwarven plate,Armor,Y,All,dmg 167
+Dwarven thrower,Weapon,Y,Dwarf,dmg 167
+Efreeti bottle,Wondrous item,N,All,dmg 167
+Figurine of wondrous power (obsidian steed),Wondrous item,N,All,dmg 170
+Frost brand,Weapon,Y,All,dmg 171
+Helm of brilliance,Wondrous item,Y,All,dmg 173
+Horn of valhalla (bronze),Wondrous item,N,All,dmg 175
+Instrument of the bards (Anstruth harp),Wondrous item,Y,Bard,dmg 176
+Ioun stone (absorption),Wondrous item,Y,All,dmg 176
+Ioun stone (agility),Wondrous item,Y,All,dmg 176
+Ioun stone (fortitude),Wondrous item,Y,All,dmg 176
+Ioun stone (insight),Wondrous item,Y,All,dmg 176
+Ioun stone (intellect),Wondrous item,Y,All,dmg 176
+Ioun stone (leadership),Wondrous item,Y,All,dmg 176
+Ioun stone (strength),Wondrous item,Y,All,dmg 176
+Manual of bodily health,Wondrous item,N,All,dmg 180
+Manual of gainful exercise,Wondrous item,N,All,dmg 180
+Manual of golems,Wondrous item,N,All,dmg 180
+Manual of quickness of action,Wondrous item,N,All,dmg 181
+Mirror of life trapping,Wondrous item,N,All,dmg 181
+Nine lives stealer,Weapon,Y,All,dmg 183
+Oathbow,Weapon,Y,All,dmg 183
+Ring of regeneration,Ring,Y,All,dmg 191
+Ring of shooting stars,Ring,Y,outdoors at night,dmg 192
+Ring of telekinesis,Ring,Y,All,dmg 193
+Robe of scintillating colors,Wondrous item,Y,All,dmg 194
+Robe of stars,Wondrous item,Y,All,dmg 194
+Rod of absorption,Rod,Y,All,dmg 195
+Rod of alertness,Rod,Y,All,dmg 196
+Rod of security,Rod,N,All,dmg 197
+Rod of the pact keeper +3,Rod,Y,warlock,dmg 197
+Scimitar of speed,Weapon,Y,All,dmg 199
+Shield +3,Armor,N,All,dmg 200
+Spellguard shield,Armor,Y,All,dmg 201
+Staff of fire,Staff,Y,druid|sorcerer|warlock|wizard,dmg 201
+Staff of frost,Staff,Y,druid|sorcerer|warlock|wizard,dmg 202
+Staff of power,Staff,Y,sorcerer|warlock|wizard,dmg 202
+Staff of striking,Staff,Y,All,dmg 203
+Staff of thunder and lightning,Staff,Y,All,dmg 204
+Sword of sharpness,Weapon,Y,All,dmg 206
+Tome of clear thought,Wondrous item,N,All,dmg 208
+Tome of leadership and influence,Wondrous item,N,All,dmg 208
+Tome of understanding,Wondrous item,N,All,dmg 209
+Wand of polymorph,Wand,Y,spellcaster,dmg 211
+Wand of the war mage +3,Wand,Y,spellcaster,dmg 212
+Weapon + 3,Weapon,N,All,dmg 213

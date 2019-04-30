@@ -1,17 +1,17 @@
-Item,Type,Attune,Restrictions
-Ammunition +3,Weapon,N,All
-Arrow of slaying,Weapon,N,All
-Bag of devouring,Wondrous item,N,All
-Horseshoes of a zephyr,Wondrous item,N,All
-Nolzur's marvelous pigments,Wondrous item,N,All
-Oil of sharpness,Potion,N,All
-Potion of cloud giant strength,Potion,N,All
-Potion of flying,Potion,N,All
-Potion of invisibility,Potion,N,All
-Potion of longevity,Potion,N,All
-Potion of speed,Potion,N,All
-Potion of supreme healing,Potion,N,All
-Potion of vitality,Potion,N,All
-Spell scroll (6th level),Scroll,N,All
-Spell scroll (7th level),Scroll,N,All
-Spell scroll (8th level),Scroll,N,All
+Item,Type,Attune,Restrictions,Source
+Ammunition +3,Weapon,N,All,dmg 150
+Arrow of slaying,Weapon,N,All,dmg 152
+Bag of devouring,Wondrous item,N,All,dmg 153
+Horseshoes of a zephyr,Wondrous item,N,All,dmg 175
+Nolzur's marvelous pigments,Wondrous item,N,All,dmg 183
+Oil of sharpness,Potion,N,All,dmg 184
+Potion of cloud giant strength,Potion,N,All,dmg 187
+Potion of flying,Potion,N,All,dmg 187
+Potion of invisibility,Potion,N,All,dmg 188
+Potion of longevity,Potion,N,All,dmg 188
+Potion of speed,Potion,N,All,dmg 188
+Potion of supreme healing,Potion,N,All,dmg 187
+Potion of vitality,Potion,N,All,dmg 188
+Spell scroll (6th level),Scroll,N,All,dmg 200
+Spell scroll (7th level),Scroll,N,All,dmg 200
+Spell scroll (8th level),Scroll,N,All,dmg 200

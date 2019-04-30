@@ -13,7 +13,7 @@ import numpy as np
 
 """
 magic_item_gen.py: Random amgic item selection program
-       Usage: python magic_item_gen.py -s major/minor -r common/uncommon/rare/veryrare/legendary -n number of items to be generated (optional -- Default 1) -o Name of output text file
+       Usage: python magic_item_sel.py -s major/minor -r common/uncommon/rare/veryrare/legendary -n number of items to be generated (optional -- Default 1) -o Name of output text file
 """
 
 #meta information

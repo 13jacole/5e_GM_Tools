@@ -4,6 +4,6 @@ It's probably nothing new, but other ones don't do it the way I want.
 
 ## TO DO:
 
- - Create simple-yet-robust way to query Item type/rarity (Initial paramaters?)
+ - Determine if initial parameter filters can be handled better
  - Create way to check if restrictions are okay (post-selection check. Loop through each where ...)
- - Create the rest of the basic code
+ - Add source name/page for easy reference

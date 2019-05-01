@@ -5,7 +5,9 @@
 - Takes parameter that either shuffles or loops selected song
 
 https://pythonbasics.org/python-play-sound/
+
 https://stackoverflow.com/questions/1804366/playing-mp3-files-with-python
+
 https://stackoverflow.com/questions/20021457/playing-mp3-song-on-python/20021547
 
 

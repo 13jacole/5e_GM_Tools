@@ -1,22 +1,17 @@
 #!/usr/bin/env python
 
-#dependencies
-import os
-import sys
+#imports
 import argparse
-import warnings
 import random
-
 import pandas as pd
 import numpy as np
-#more imports
 
 """
 magic_item_sel.py: Random magic item selection program
        Usage: python magic_item_sel.py -s major/minor -r common/uncommon/rare/veryrare/legendary -n number of items to be generated (optional -- Default 1) -o Name of output text file
 """
 
-#meta information
+# meta information
 __author__ = "Jakob Cole"
 __maintainer__ = "Jakob Cole"
 
@@ -42,18 +37,19 @@ if args.number is not None:
 	number = int(args.number[0])
 else:
 	number = 1
-	
+
+# open/create output file
 f = open(args.outFile[0], "a+")
 
-#import file
+# import file
 itemfile = str(item_scope) + '_' + str(item_rarity) + '.csv'
 my_data = pd.read_csv(itemfile, delimiter=',', header=0)
 
-#Determine item filter decision
+# item filter decision
 print('Do you want to filter by item type? (Y/N)')
 valid = False
 
-while valid == False:
+while valid == False: # valid input check
 	dec = input()
 	if dec.lower() != 'y' and dec.lower() != 'yes' and dec.lower() != 'n' and dec.lower() != 'no':
 		print("I'm sorry. I do not understand your input. Please indicate Y or N\n\n")
@@ -61,7 +57,7 @@ while valid == False:
 	else:
 		valid = True
 
-
+# filter
 if dec.lower() == 'y' or dec.lower == 'yes':
 	print('Using the following list, please select which item types you want to choose from\n')
 	print('Selection Number -- Item Type\n')
@@ -119,6 +115,7 @@ if dec.lower() == 'y' or dec.lower == 'yes':
 	typefilt = input()
 	typefilt = list(typefilt)
 	
+	# only add to filter if item type exists
 	typefiltname = []
 	if '1' in typefilt and 1 in totFilt:
 		typefiltname.append('Armor')
@@ -152,19 +149,21 @@ if dec.lower() == 'y' or dec.lower == 'yes':
 else:
 	item_data = my_data
 
+# write item scope_rarity
 f.write(item_scope + " " + item_rarity + "\n")
 
+# loop for each item
 while number > 0:
 	#pick random item
 	(rows, cols) = item_data.shape
 	x = random.randint(0, (rows-1))
 	
-	if item_data.iloc[x,3] != 'All':
+	if item_data.iloc[x,3] != 'All': # determine if item with restrictions should be used
 		print(item_data.iloc[x,0] + " has the following use restriction: " + item_data.iloc[x,3])
 		print("Do you want to generate a different item? (Y/N)")
 		valid = False
 		
-		while valid == False:
+		while valid == False: # check for valid input
 			Rest_Dec = input()
 			if Rest_Dec.lower() != 'y' and Rest_Dec.lower() != 'yes' and Rest_Dec.lower() != 'n' and Rest_Dec.lower() != 'no':
 				print("I'm sorry. I do not understand your input. Please indicate Y or N\n\n")
@@ -175,6 +174,7 @@ while number > 0:
 	else:
 		Rest_Dec = 'n'
 	
+	# print item
 	if Rest_Dec.lower() == 'n' or Rest_Dec.lower == 'no':
 		if args.outFile is not None:
 			f.write('/////////////////\n')

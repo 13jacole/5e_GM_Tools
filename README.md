@@ -10,3 +10,11 @@ A tool that will randomly select X many magic items of Y rarity. Will output/app
 
 - Numpy
 - Pandas
+
+
+## To Do:
+
+* Brainstorm other tool ideas
+	- Random music player tool?
+* Increase efficiency in Selector Tool
+	- Investigate imports. Can some be removed?

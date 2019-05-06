@@ -17,3 +17,12 @@ https://stackoverflow.com/questions/20021457/playing-mp3-song-on-python/20021547
 - PC? NPC? (Monster?)
 - Front-end? GUI? Output?
 
+* Ability Score Generator
+	- Decide where to put the scores
+* Background options?
+	- Output Background information
+		*Decide if options should be random, or not.
+			- Output to user regardless.
+* Overall output all pieces, and walk player through decisions
+	- Ask players which decision they want to make next.
+		*At the end, output all character information to specified .txt file

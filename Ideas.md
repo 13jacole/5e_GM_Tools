@@ -26,3 +26,4 @@ https://stackoverflow.com/questions/20021457/playing-mp3-song-on-python/20021547
 * Overall output all pieces, and walk player through decisions
 	- Ask players which decision they want to make next.
 		*At the end, output all character information to specified .txt file
+* Always always always allow for random when presenting a choice.

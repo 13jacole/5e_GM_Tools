@@ -18,12 +18,14 @@
 		- Write code in sections
 			* Functions
 			* Loops
-	* Race and Class must be done first
+	* Race and Class both must be done first
 		- Prompt confirmation if user changes one of these
 			* Prompt for all, but make sure user knows these impact other things
 		- Reset Equipment if Class is changed
 		- Reset Character Description if Race is changed
-
+	* Allow users to view a completed option's details
+	* Allow users to see a summary of what a choice entails
+		- e.g. "Race represents the physical form your character has. It impacts base ability score improvements, and adds a few racial traits. Certain feats may be dependant on race."
 - Race Choice
 	* Display all races
 		- Name, subrace options(!), short description, bonuses, abilities

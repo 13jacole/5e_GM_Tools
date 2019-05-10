@@ -70,17 +70,43 @@ mp3Counter = len(mp3List)
 
 if playlist:
 	if mp3Counter > 1:
-		x = rando.randint(0, (mp3Counter-1))
+		if random:
+			rando.shuffle(mp3List)
+		else:
+			x = 0
 	elif mp3Counter == 1:
-		x = 1
+		x = 0
 	else:
 		print("No MP3 files exist in this directory")
 		sys.exit()
-		
-	playsound(mp3List[x])
+	if random:
+		for each song in mp3List:
+			y = True
+			while y:
+				playsound(mp3List[song])
+				y = loop
+	else:
+		y = True
+		while y:
+			playsound(mp3List[x])
+			y = loop
 else:
-	print("\n")
-	print("Songs in this directory:")
-	print("\n")
-	for idx, song in enumerate(mp3List, start=1):
-		print("{}: {}\n".format(idx, song))
+	if random:
+		x = rando.randInt(0, mp3Counter)
+	else:
+		print("\n")
+		print("Songs in this directory:")
+		print("\n")
+		for idx, song in enumerate(mp3List, start=1):
+			print("{}: {}\n".format(idx, song))
+		print("Please indicate what song you would like to play\n[Enter the number to the left of the song name]")
+		x = input()
+		try:
+			x = int(x) - 1
+		except:
+			print("Error: Invalid song number")
+			sys.exit()
+	y = True
+	while y:
+		playsound(mp3List[x])
+		y = loop

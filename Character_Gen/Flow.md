@@ -59,8 +59,9 @@
 
 - use xlsxWriter to format sheet in excel
 	* Like current sheet?
-	* https://xlsxwriter.readthedocs.io/ (Yes)
-	* PyExcelerate?
+	* https://xlsxwriter.readthedocs.io/
+	* https://xlsxwriter.readthedocs.io/example_images.html
+	* https://xlsxwriter.readthedocs.io/example_merge1.html
 
 - Eventually add additional excel page with raw data for input
 	* Allows for level up function

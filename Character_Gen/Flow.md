@@ -43,6 +43,10 @@
 	* Allow option for random rolling
 		- Look into robust rolling inputs (input custom method)
 	* Allow option for standard array
+	* Allow option for specifying custom scores
+	* Look into point buy
+		- Specify number of points
+		- Use standard algorithm
 	* Ability Score assignment
 
 - Character Description
@@ -55,10 +59,10 @@
 
 - use xlsxWriter to format sheet in excel
 	* Like current sheet?
-	* https://xlsxwriter.readthedocs.io/
+	* https://xlsxwriter.readthedocs.io/ (Yes)
+	* PyExcelerate?
 
 - Eventually add additional excel page with raw data for input
-	* Allow for level up
-		- ???
-	* Allow for changing character
+	* Allows for level up function
+		- Data Tab in Excel output --> Stores all current values in easy-to-parse format
 		- ???

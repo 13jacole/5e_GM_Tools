@@ -52,11 +52,13 @@ currDir = os.getcwd()
 
 if playlist:
 	print("What playlist do you want to play?\n")
-	print("Please type the name of the subdirectory: \n")
 else:
 	print("From what playlist do you want to select your song?\n")
-	print("Please type the name of the subdirectory: \n")
 	
+dirList = [x[0] for x in os.walk('.')]
+print(dirList[1])
+print("Please type the name of the subdirectory: \n")
+
 decision = input()
 decision = decision.replace(" ", "_")
 newDir = currDir + "\\" + decision
@@ -69,30 +71,20 @@ mp3List = glob.glob1(newDir,"*.mp3")
 mp3Counter = len(mp3List)
 
 if playlist:
-	if mp3Counter > 1:
-		if random:
-			rando.shuffle(mp3List)
+	y = True
+	while y:
+		if mp3Counter > 0:
+			if random:
+				rando.shuffle(mp3List)
 		else:
-			x = 0
-	elif mp3Counter == 1:
-		x = 0
-	else:
-		print("No MP3 files exist in this directory")
-		sys.exit()
-	if random:
-		for each song in mp3List:
-			y = True
-			while y:
-				playsound(mp3List[song])
-				y = loop
-	else:
-		y = True
-		while y:
-			playsound(mp3List[x])
-			y = loop
+			print("No MP3 files exist in this directory")
+			sys.exit()
+		for idx, song in enumerate(mp3List, start=0):
+			playsound(mp3List[idx])
+		y = loop
 else:
 	if random:
-		x = rando.randInt(0, mp3Counter)
+		x = rando.randint(0, mp3Counter)
 	else:
 		print("\n")
 		print("Songs in this directory:")
@@ -101,12 +93,15 @@ else:
 			print("{}: {}\n".format(idx, song))
 		print("Please indicate what song you would like to play\n[Enter the number to the left of the song name]")
 		x = input()
-		try:
-			x = int(x) - 1
-		except:
-			print("Error: Invalid song number")
-			sys.exit()
-	y = True
-	while y:
-		playsound(mp3List[x])
-		y = loop
+		x= int(x) - 1
+		y = True
+		while y:
+			try:
+				playsound(mp3List[x])
+				y = loop
+				if y == True:
+					print("looping...\n")
+			except:
+				print("Error: Invalid song number")
+				sys.exit()
+	

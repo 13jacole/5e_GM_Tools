@@ -1,3 +1,9 @@
+- Add more functions?
+	* Use functions to determine which function to run?
+	* Individual functions for each race and class?
+		- Create list of abilities, traits, spells, etc.
+			* Final function pulls all of these lists together
+
 - Select available books
 	* Options
 		- PHB (Includes DMG villainous options) -- Always on

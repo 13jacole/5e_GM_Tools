@@ -84,7 +84,7 @@ if playlist:
 		y = loop
 else:
 	if random:
-		x = rando.randint(0, mp3Counter)
+		x = rando.randint(0, mp3Counter - 1)
 	else:
 		print("\n")
 		print("Songs in this directory:")

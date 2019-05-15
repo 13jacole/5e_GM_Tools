@@ -1,7 +1,9 @@
 Item,Type,Attune,Restrictions,Source
 Adamantine armor,Armor,N,"Medium or Heavy, but not hide",dmg 150
 Amulet of proof against detection and location,Wondrous item,Y,All,dmg 150
-Bag of tricks,Wondrous item,N,All,dmg 154
+Gray Bag of tricks,Wondrous item,N,All,dmg 154
+Rust Bag of tricks,Wondrous item,N,All,dmg 154
+Tan Bag of tricks,Wondrous item,N,All,dmg 154
 Boots of elvenkind,Wondrous item,N,All,dmg 155
 Boots of striding and springing,Wondrous item,Y,All,dmg 156
 Boots of the winterlands,Wondrous item,Y,All,dmg 156

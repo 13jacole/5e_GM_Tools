@@ -1,0 +1,22 @@
+Ability Scores
+Level
+Class
+Race
+Background (Personality Traits, Ideals, Bonds, Flaws)
+Alignment
+Exp
+Proficiency Bonus
+Saving Throws [proficiency, bonus]
+skills [proficiency, bonus]
+passive perception
+AC
+Initiative bonus
+Speed
+Max HP (Curr HP) [[temp hp]]
+Hit Dice (number, type)
+[[Death saves --> success/fails]]
+Equipment
+Money
+Proficiencies (armor, weapon, language, tool)
+Features
+Spells

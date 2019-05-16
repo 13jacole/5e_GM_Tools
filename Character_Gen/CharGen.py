@@ -115,8 +115,7 @@ def ScoreGen():
 			break
 		else:
 			print("Invalid input. Please try again")
-			
-	#Test
+	#Call Function that generates scores
 	return AbilityScores(method, ra)
 	
 Score = ScoreGen()

@@ -4,7 +4,44 @@ import random
 
 #Function for ability scores
 
-def AbilityScores(method, rando):
+def ScoreGen():
+
+	while True:
+		print("You have chosen to generate new ability scores")
+		print("Please choose the number corresponding to your desired score generation method:\n")
+		print("1. Standard Array\n")
+		print("2. 4d6 drop lowest\n")
+		print("3. 3d6\n")
+		print("4. Custom scores\n")
+		dec = input()
+		if dec == "1":
+			method = 1
+			break
+		elif dec == "2":
+			method = 2
+			break
+		elif dec == "3":
+			method = 3
+			break
+		elif dec == "4":
+			method = 4
+			break
+		else:
+			print("Invalid method type. Please try again.\n")
+			
+	while True:
+		print("Do you want to randomize your score placement? (Y/N):")
+		dec = input()
+		if dec.lower() == "y" or dec.lower() == "yes" or dec.lower() == "ye":
+			ra = True
+			break
+		elif dec.lower() == "n" or dec.lower() == "no":
+			ra = False
+			break
+		else:
+			print("Invalid input. Please try again")
+	#Call Function that generates scores
+	
 	AbSc = [] # Str, Dex, Con, Int, Wis, Cha
 	
 	# Generate scores
@@ -32,9 +69,9 @@ def AbilityScores(method, rando):
 	if method == 4: #Custom
 		for x in range(0, 6):
 			print("Please enter score " + str(x+1) + "\n")
-			AbSc.append(input())
+			AbSc.append(int(input()))
 	# Place scores
-	if rando:
+	if ra:
 		random.shuffle(AbSc)
 	else:
 		Sc = AbSc
@@ -55,5 +92,6 @@ def AbilityScores(method, rando):
 				del Ab[0]
 			else:
 				print("Not a valid value. Please try again.")
-		
+	
+	print("------")
 	return AbSc

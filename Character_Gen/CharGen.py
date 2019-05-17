@@ -28,6 +28,7 @@ print(config.Ability_Scores.Cha)
 ##########################
 
 while True:
+
 	print("What race do you want to play as?")
 	print("Please use the number to the left of the name\n")
 	print("Core")
@@ -104,19 +105,19 @@ while True:
 				print("2) Mountain Dwarf -- Huge STR boost and armor proficiencies")
 				print("3) Duergar (Grey Dwarf) -- Increased STR, better darkvision, some spells, and sunlight sensitivity")
 				print("\n")
-				Sub = input()
+				Sub = int(input())
 			
-			if Sub == "1":
+			if Sub == 1:
 				config.Race = "Hill Dwarf"
 				print("You have selected Hill Dwarf")
 				config.Ability_Scores.Wis += 1
 				break
-			elif Sub == "2":
+			elif Sub == 2:
 				config.Race = "Mountain Dwarf"
 				print("You have selected Mountain Dwarf")
 				config.Ability_Scores.Str += 2
 				break
-			elif Sub == "3":
+			elif Sub == 3:
 				config.Race = "Duergar - Grey Dwarf"
 				print("You have selected Duergar")
 				config.Ability_Scores.Str += 1
@@ -146,7 +147,7 @@ while True:
 		config.Prof.weapon.append("warhammer")
 		
 		#Make tool choice
-		while True
+		while True:
 			if r:
 				cho = random.randint(1, 3)
 			else:
@@ -154,7 +155,7 @@ while True:
 				print("1)\tSmith's Tools")
 				print("2)\tBrewer's Supplies")
 				print("3)\tMason's Tools")
-				cho = input()
+				cho = int(input())
 
 			if cho == 1:
 				ToolChoice = "smith's tools"
@@ -180,5 +181,6 @@ while True:
 		
 		
 		print("subraces - tbd")
+		break
 	else:
 		print("Invalid selection. Please try again")

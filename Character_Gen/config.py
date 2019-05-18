@@ -18,7 +18,7 @@ class Ab_Sco:
 Ability_Scores = Ab_Sco(0, 0, 0, 0, 0, 0)
 
 Size = ""
-Level = 0
+Level = 1
 Class = ""
 Race = ""
 

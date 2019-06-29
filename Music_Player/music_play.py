@@ -56,7 +56,7 @@ else:
 	print("From what playlist do you want to select your song?\n")
 	
 dirList = [x[0] for x in os.walk('.')]
-print(dirList[1])
+print(dirList)
 print("Please type the name of the subdirectory: \n")
 
 decision = input()

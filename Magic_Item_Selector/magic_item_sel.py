@@ -8,7 +8,7 @@ import numpy as np
 
 """
 magic_item_sel.py: Random magic item selection program
-       Usage: python magic_item_sel.py -s major/minor -r common/uncommon/rare/veryrare/legendary -n number of items to be generated (optional -- Default 1) -o Name of output text file
+       Usage: python magic_item_sel.py -s major/minor -r common/uncommon/rare/veryrare/legendary -n number of items to be generated (optional -- Default 1) -o Name of output text file -s (optional)
 """
 
 # meta information
@@ -29,6 +29,9 @@ pa.add_argument('-n', '--num', action='store', nargs=1, dest='number',
 pa.add_argument('-o', '--out', action='store', nargs=1, dest='outFile',
                 help='file to output file to', required=True)
 
+pa.add_argument('-s', '--skip', action='store_true',
+                help='skip all dialogues regarding requirements', required=True)
+				
 args = pa.parse_args()	
 
 item_scope = args.item_scope[0]
@@ -37,6 +40,10 @@ if args.number is not None:
 	number = int(args.number[0])
 else:
 	number = 1
+if args.skip:
+	skip = True
+else:
+	skip = False
 
 # open/create output file
 f = open(args.outFile[0], "a+")
@@ -158,7 +165,7 @@ while number > 0:
 	(rows, cols) = item_data.shape
 	x = random.randint(0, (rows-1))
 	
-	if item_data.iloc[x,3] != 'All': # determine if item with restrictions should be used
+	if item_data.iloc[x,3] != 'All' and not skip: # determine if item with restrictions should be used
 		print(item_data.iloc[x,0] + " has the following use restriction: " + item_data.iloc[x,3])
 		print("Do you want to generate a different item? (Y/N)")
 		valid = False

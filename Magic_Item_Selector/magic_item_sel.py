@@ -8,7 +8,7 @@ import numpy as np
 
 """
 magic_item_sel.py: Random magic item selection program
-       Usage: python magic_item_sel.py -s major/minor -r common/uncommon/rare/veryrare/legendary -n number of items to be generated (optional -- Default 1) -o Name of output text file -s (optional)
+       Usage: python magic_item_sel.py -s major/minor -r common/uncommon/rare/veryrare/legendary -n number of items to be generated (optional -- Default 1) -o Name of output text file -k (optional)
 """
 
 # meta information
@@ -27,9 +27,9 @@ pa.add_argument('-n', '--num', action='store', nargs=1, dest='number',
                 help='number of items outputted')
 				
 pa.add_argument('-o', '--out', action='store', nargs=1, dest='outFile',
-                help='file to output file to', required=True)
+                help='file to output file to (must include extention i.e. "test.txt"', required=True)
 
-pa.add_argument('-s', '--skip', action='store_true',
+pa.add_argument('-k', '--skip', action='store_true',
                 help='skip all dialogues regarding requirements', required=True)
 				
 args = pa.parse_args()	

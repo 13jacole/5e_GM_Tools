@@ -30,7 +30,7 @@ pa.add_argument('-o', '--out', action='store', nargs=1, dest='outFile',
                 help='file to output file to (must include extention i.e. "test.txt"', required=True)
 
 pa.add_argument('-k', '--skip', action='store_true',
-                help='skip all dialogues regarding requirements', required=True)
+                help='skip all dialogues regarding requirements')
 				
 args = pa.parse_args()	
 

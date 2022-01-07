@@ -3,6 +3,8 @@
 
 import random
 
+# Driver Function -- Determines Draconic Ancestry
+# Also determines Breath Weapon
 def Skyrim(r):
 	while True:
 		if r:
@@ -63,7 +65,8 @@ def Skyrim(r):
 		else:
 			print("Invalid dragon color")
 	return Dragon.lower(), Dam_Type, Breath
-	
+
+## Feature Functions ##
 def Ancestry(Dragon):
 	Name = "Draconic Ancestry"
 	Feature = "You are distantly related to " + Dragon + " dragons, which impacts your other racial features."

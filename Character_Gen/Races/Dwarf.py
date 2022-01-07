@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #Dwarf
 
+## Feature Functions ##
 def Darkvision(Sub):
 	if Sub == "3":
 		Name = "Superior Darkvision"

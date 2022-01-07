@@ -34,9 +34,14 @@ bg = Background("", "", "", "")
 Alignment = ""
 Exp = 0
 Prof_Bonus = 0
+
+#Format: [IsProficient, Score]
 SaveThrow = [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
-Skills = [[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0],[0, 0]]
+
+#Format: [Name, IsProficient, Score]
+Skills = [["Acrobatics", 0, 0],["Animal Handling", 0, 0],["Arcana", 0, 0],["Athletics", 0, 0],["Deception", 0, 0],["History", 0, 0],["Insight", 0, 0],["Intimidation", 0, 0],["Investigation", 0, 0],["Medicine", 0, 0],["Nature", 0, 0],["Perception", 0, 0],["Performance", 0, 0],["Persuasion", 0, 0],["Religion", 0, 0],["Sleight of Hand", 0, 0],["Stealth", 0, 0],["Survival", 0, 0]]
 #Passive_Percept = 0 #Passive Perception is just 10 + perception mod --> can be calculated on the fly
+
 AC = 0
 Initiative = 0
 Speed = 0

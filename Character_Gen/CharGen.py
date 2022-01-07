@@ -29,12 +29,12 @@ print(config.Ability_Scores.Cha)
 
 while True:
 
+    availableRaces = ["Dragonborn", "Dwarf", "Elf", "Halfling", "Human", "Gnome", "Half-Elf", "Half-Orc", "Tiefling"]
     print("What race do you want to play as?")
     print("Please use the number to the left of the name\n")
     print("Core")
-    print("1. Dragonborn\n")
-    print("2. Dwarf\n")
-    print("3. Elf\n")
+    for i in len(availableRaces):
+        print(str(i) + ". " + availableRaces[i] + "\n")
     
     rdec = input()
     
@@ -98,48 +98,6 @@ while True:
                 break
             else:
                 print("Error: Invalid input")
-        while True:
-            if r:
-                Sub = random.randint(1, 3)
-            else:
-                print("Dwarves are a stout and hardy race, with 3 principle subraces:")
-                print("Would you like to be a...?\n")
-                print("1) Hill Dwarf -- Increased WIS and HP")
-                print("2) Mountain Dwarf -- Huge STR boost and armor proficiencies")
-                print("3) Duergar (Grey Dwarf) -- Increased STR, better darkvision, some spells, and sunlight sensitivity")
-                print("\n")
-                Sub = int(input())
-            
-            if Sub == 1:
-                config.Race = "Hill Dwarf"
-                print("You have selected Hill Dwarf")
-                config.Ability_Scores.Wis += 1
-                config.Max_HP += 1
-                break
-            elif Sub == 2:
-                config.Race = "Mountain Dwarf"
-                print("You have selected Mountain Dwarf")
-                config.Ability_Scores.Str += 2
-                config.Prof.armor.append("light")
-                config.Prof.armor.append("medium")
-                break
-            elif Sub == 3:
-                config.Race = "Duergar - Grey Dwarf"
-                print("You have selected Duergar")
-                config.Ability_Scores.Str += 1
-                
-                Name, Feature = DuergarResil()
-                config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
-                
-                Name, Feature = DuergarMag()
-                config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
-                
-                Name, Feature = SunSens()
-                config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
-                
-                break
-            else:
-                print("Invalid input. Please try again.")
             
         #ASI
         config.Ability_Scores.Con += 2
@@ -157,8 +115,47 @@ while True:
         #Proficiencies
         config.Prof.weapon.append("battleaxe")
         config.Prof.weapon.append("handaxe")
-        config.Prof.weapon.append("throwing hammer")
+        config.Prof.weapon.append("light hammer")
         config.Prof.weapon.append("warhammer")
+        
+        #Universal Features
+        Name, Feature = Darkvision()
+        config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
+        
+        ## Active Choices ##
+        while True:
+            if r:
+                Sub = random.randint(1, 2)
+            else:
+                print("Dwarves are a stout and hardy race, with 2 principle subraces:")
+                print("Would you like to be a...?\n")
+                print("1) Hill Dwarf -- Increased WIS and HP")
+                print("2) Mountain Dwarf -- Huge STR boost and armor proficiencies")
+                print("\n")
+                while True:
+                    Sub = input()
+                    if Sub.isnumeric():
+                        Sub = int(Sub)
+                        break
+                    print("Error: Invalid Input")
+            
+            if Sub == 1:
+                config.Race = "Hill Dwarf"
+                print("You have selected Hill Dwarf")
+                config.Ability_Scores.Wis += 1
+                config.Max_HP += 1
+                Name, Feature = DwarfTough()
+                config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
+                break
+            elif Sub == 2:
+                config.Race = "Mountain Dwarf"
+                print("You have selected Mountain Dwarf")
+                config.Ability_Scores.Str += 2
+                config.Prof.armor.append("light")
+                config.Prof.armor.append("medium")
+                break
+            else:
+                print("Invalid input. Please try again.")
         
         #Make tool choice
         while True:
@@ -186,15 +183,13 @@ while True:
         config.Prof.tool.append(ToolChoice)
         
         #Features
-        Name, Feature = Darkvision(Sub)
-        config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
-        
         Name, Feature = Resilience()
         config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
         
         Name, Feature = StoneCunning()
         config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
-    
+        
+        print(config.Features)
         break
     elif rdec == "3":
         
@@ -210,20 +205,47 @@ while True:
                 break
             else:
                 print("Error: Invalid input")
+                
+        ## Universal Pieces ##
+            
+        #ASI
+        config.Ability_Scores.Dex += 2
+        
+        #Size
+        config.Size = "Medium"
+        
+        #Speed
+        config.Speed = 30
+        
+        #Languages
+        config.Prof.language.append("Common")
+        config.Prof.language.append("Elvish")
+        
+        #Universal Features
+        Name, Feature = KeenSenses()
+        config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
+        Name, Feature = FeyAncestry()
+        config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
+        Name, Feature = Trance()
+        config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
+        
+        ##Active Choices Start Here
         while True:
             if r:
-                Sub = random.randint(1, 6)
+                Sub = random.randint(1, 3)
             else:
                 print("Elves are a graceful people heavily in tune with magic, with 6 principle subraces:")
                 print("Would you like to be a...?\n")
                 print("1) High Elf -- Increased INT, a cantrip, and weapon proficiencies")
                 print("2) Wood Elf -- Increased WIS, weapon proficiencies, and extra speed")
                 print("3) Drow(Dark Elf) -- Increased CHA, better darkvision, weapon proficiencies, and some magic")
-                print("4) Eladrin -- Increased CHA, limited teleporting with effects")
-                print("5) Sea Elf -- Increased CON, swim speed, some weapon proficiencies")
-                print("6) Shadar-Kai -- Increased CON, resistance to necrotic damage, limited teleport")
                 print("\n")
-                Sub = int(input())
+                while True:
+                    Sub = input()
+                    if Sub.isnumeric():
+                        Sub = int(Sub)
+                        break
+                    print("Error: Invalid Input")
             
             if Sub == 1:
                 config.Race = "High Elf"
@@ -233,90 +255,229 @@ while True:
                 config.Prof.weapon.append("shortsword")
                 config.Prof.weapon.append("longbow")
                 config.Prof.weapon.append("shortbow")
-                
-                config.Spells0['Prep'], config.Spells0['Name'] = HighElfCan()
+                config.Spells0['Prep'], config.Spells0['Name'] = HighElfCan(r)
+                ExtraLanguage(config.Prof.language, r)
                 break
-                
-            #### EDITS START HERE ####
             elif Sub == 2:
-                config.Race = "Mountain Dwarf"
-                print("You have selected Mountain Dwarf")
-                config.Ability_Scores.Str += 2
-                config.Prof.armor.append("light")
-                config.Prof.armor.append("medium")
+                config.Race = "Wood Elf"
+                print("You have selected Wood Elf")
+                config.Ability_Scores.Wis += 1
+                config.Prof.weapon.append("longsword")
+                config.Prof.weapon.append("shortsword")
+                config.Prof.weapon.append("longbow")
+                config.Prof.weapon.append("shortbow")
+                config.Speed = 35
+                Name, Feature = WildMask()
+                config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
                 break
             elif Sub == 3:
-                config.Race = "Duergar - Grey Dwarf"
-                print("You have selected Duergar")
-                config.Ability_Scores.Str += 1
-                
-                Name, Feature = DuergarResil()
+                config.Race = "Dark Elf (Drow)"
+                print("You have selected Dark Elf")
+                config.Ability_Scores.Cha += 1
+                config.Prof.weapon.append("rapier")
+                config.Prof.weapon.append("shortsword")
+                config.Prof.weapon.append("hand crossbow")
+                config.Speed = 35
+                Name, Feature = WildMask()
                 config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
-                
-                Name, Feature = DuergarMag()
+                Name, Feature = SunlightSensitive()
                 config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
-                
-                Name, Feature = SunSens()
-                config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
-                
+                config.Spells0.loc[len(config.Spells0] = ['1', 'Dancing Lights']
                 break
             else:
                 print("Invalid input. Please try again.")
+        
+        
+        Name, Feature = Darkvision(Sub)
+        config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
+        
+        print(config.Features)
+        break
+elif rdec == "4":
+        
+        from Races.Halfling import *
+        while True:
+            print("Do you want to randomize your Halfling race options?")
+            dec = input()
+            if dec.lower() == "n" or dec.lower() == "no":
+                r = False
+                break
+            elif dec.lower() == "y" or dec.lower() == "ye" or dec.lower() == "yes":
+                r = True
+                break
+            else:
+                print("Error: Invalid input")
+                
+        ## Universal Pieces ##
             
         #ASI
-        config.Ability_Scores.Con += 2
+        config.Ability_Scores.Dex += 2
         
         #Size
-        config.Size = "Medium"
+        config.Size = "Small"
         
         #Speed
         config.Speed = 25
         
         #Languages
         config.Prof.language.append("Common")
-        config.Prof.language.append("Dwarvish")
+        config.Prof.language.append("Halfling")
         
-        #Proficiencies
-        config.Prof.weapon.append("battleaxe")
-        config.Prof.weapon.append("handaxe")
-        config.Prof.weapon.append("throwing hammer")
-        config.Prof.weapon.append("warhammer")
+        #Universal Features
+        Name, Feature = LuckyHalf()
+        config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
+        Name, Feature = Brave()
+        config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
+        Name, Feature = NimbleHalf()
+        config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
         
-        #Make tool choice
+        ##Active Choices Start Here
         while True:
             if r:
-                cho = random.randint(1, 3)
+                Sub = random.randint(1, 2)
             else:
-                print("Dwarves gain tool proficiency with one of the following toolsets:\n")
-                print("1)\tSmith's Tools")
-                print("2)\tBrewer's Supplies")
-                print("3)\tMason's Tools")
-                cho = int(input())
-
-            if cho == 1:
-                ToolChoice = "smith's tools"
-                break
-            elif cho == 2:
-                ToolChoice = "brewer's supplies"
-                break
-            elif cho == 3:
-                ToolChoice = "mason's tools"
-                break
-            else:
-                print("Invalid input. Please try again")
+                print("Halflings are a diminutive cheerful people, with 2 principle subraces:")
+                print("Would you like to be a...?\n")
+                print("1) Lightfoot Halfling -- Increased Cha, extra stealthy")
+                print("2) Stout Halfling -- Increased Con, resistant to poison")
+                print("\n")
+                while True:
+                    Sub = input()
+                    if Sub.isnumeric():
+                        Sub = int(Sub)
+                        break
+                    print("Error: Invalid Input")
             
-        config.Prof.tool.append(ToolChoice)
+            if Sub == 1:
+                config.Race = "Lightfoot"
+                print("You have selected Lightfoot Halfling")
+                config.Ability_Scores.Cha += 1
+                Name, Feature = NaturalStealth()
+                config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
+                break
+            elif Sub == 2:
+                config.Race = "Stout"
+                print("You have selected Stout Halfling")
+                config.Ability_Scores.Con += 1
+                Name, Feature = StoutResil()
+                config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
+                break
+            else:
+                print("Invalid input. Please try again.")
+                
+elif rdec == "5":
         
-        #Features
-        Name, Feature = Darkvision(Sub)
+        from Races.Human import *
+        while True:
+            print("Do you want to randomize your Human race options?")
+            dec = input()
+            if dec.lower() == "n" or dec.lower() == "no":
+                r = False
+                break
+            elif dec.lower() == "y" or dec.lower() == "ye" or dec.lower() == "yes":
+                r = True
+                break
+            else:
+                print("Error: Invalid input")
+                
+        print("Humans are a diverse people with startling potential")
+        ## Universal Pieces ##
+            
+        #ASI
+        config.Ability_Scores.Str += 1
+        config.Ability_Scores.Dex += 1
+        config.Ability_Scores.Con += 1
+        config.Ability_Scores.Int += 1
+        config.Ability_Scores.Wis += 1
+        config.Ability_Scores.Cha += 1
+        
+        #Size
+        config.Size = "Medium"
+        
+        #Speed
+        config.Speed = 30
+        
+        #Languages
+        config.Prof.language.append("Common")
+        
+        #Universal Features
+        Name, Feature = ExtraLanguage()
         config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
         
-        Name, Feature = Resilience()
+        print(config.Features)
+        break
+            
+elif rdec == "6":
+        
+        from Races.Gnome import *
+        while True:
+            print("Do you want to randomize your Gnome race options?")
+            dec = input()
+            if dec.lower() == "n" or dec.lower() == "no":
+                r = False
+                break
+            elif dec.lower() == "y" or dec.lower() == "ye" or dec.lower() == "yes":
+                r = True
+                break
+            else:
+                print("Error: Invalid input")
+                
+        ## Universal Pieces ##
+            
+        #ASI
+        config.Ability_Scores.Int += 2
+        
+        #Size
+        config.Size = "Small"
+        
+        #Speed
+        config.Speed = 25
+        
+        #Languages
+        config.Prof.language.append("Common")
+        config.Prof.language.append("Gnomish")
+        
+        #Universal Features
+        Name, Feature = Darkvision()
         config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
         
-        Name, Feature = StoneCunning()
+        Name, Feature = GnomeCunning()
         config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
-    
+        
+        while True:
+            if r:
+                Sub = random.randint(1, 2)
+            else:
+                print("Gnomes are a vibrant people with a penchant for tinkering, who have 2 principle subraces")
+                print("Would you like to be a...?\n")
+                print("1) Forest Gnome -- Increased Dex, illusion cantrip, talk to animals")
+                print("2) Rock Knome -- Increased Con, bonus to history, create clockwork devices")
+                print("\n")
+                while True:
+                    Sub = input()
+                    if Sub.isnumeric():
+                        Sub = int(Sub)
+                        break
+                    print("Error: Invalid Input")
+            
+            if Sub == 1: #edits needed starting here
+                config.Race = "Forest Gnome"
+                print("You have selected Forest Gnome")
+                config.Ability_Scores.Cha += 1
+                Name, Feature = NaturalStealth()
+                config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
+                break
+            elif Sub == 2:
+                config.Race = "Stout"
+                print("You have selected Stout Halfling")
+                config.Ability_Scores.Con += 1
+                Name, Feature = StoutResil()
+                config.Features = config.Features.append({'Name' : Name, 'Desc' : Feature}, ignore_index=True)
+                break
+            else:
+                print("Invalid input. Please try again.")
+        
+        print(config.Features)
         break
     else:
         print("Invalid selection. Please try again")
